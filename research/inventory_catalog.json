@@ -1,0 +1,5556 @@
+{
+    "items": {
+        "SFXGameContent.SFXWeapon_AssaultRifle_Avenger": {
+            "name": "M-8 Avenger",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Common",
+            "max_count": 10,
+            "gui_name_id": 589047,
+            "inventory_ids": {
+                "base": 0
+            }
+        },
+        "SFXGameContent.SFXWeapon_SniperRifle_Mantis": {
+            "name": "M-92 Mantis",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_Common",
+            "max_count": 10,
+            "gui_name_id": 209737,
+            "inventory_ids": {
+                "base": 9
+            }
+        },
+        "SFXGameContent.SFXWeapon_Pistol_Predator": {
+            "name": "M-3 Predator",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_Common",
+            "max_count": 10,
+            "gui_name_id": 209732,
+            "inventory_ids": {
+                "base": 25
+            }
+        },
+        "SFXGameContent.SFXWeapon_SMG_Shuriken": {
+            "name": "M-4 Shuriken",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "smg",
+            "category": "EReinforcementGUICategory_SMG",
+            "rarity": "Rarity_Common",
+            "max_count": 10,
+            "gui_name_id": 209730,
+            "inventory_ids": {
+                "base": 29
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Katana": {
+            "name": "M-23 Katana",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Common",
+            "max_count": 10,
+            "gui_name_id": 209734,
+            "inventory_ids": {
+                "base": 17
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Cobra": {
+            "name": "Phaeston",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 634278,
+            "inventory_ids": {
+                "base": 4
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Vindicator": {
+            "name": "M-15 Vindicator",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 621121,
+            "inventory_ids": {
+                "base": 7
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Scimitar": {
+            "name": "M-27 Scimitar",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 209735,
+            "inventory_ids": {
+                "base": 20
+            }
+        },
+        "SFXGameContent.SFXWeapon_SniperRifle_Viper": {
+            "name": "M-97 Viper",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 209738,
+            "inventory_ids": {
+                "base": 12
+            }
+        },
+        "SFXGameContent.SFXWeapon_SniperRifle_Raptor": {
+            "name": "M-13 Raptor",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 551044,
+            "inventory_ids": {
+                "base": 10
+            }
+        },
+        "SFXGameContent.SFXWeapon_Pistol_Phalanx": {
+            "name": "M-5 Phalanx",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 546166,
+            "inventory_ids": {
+                "base": 24
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Mattock": {
+            "name": "M-96 Mattock",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 545842,
+            "inventory_ids": {
+                "base": 3
+            }
+        },
+        "SFXGameContent.SFXWeapon_SMG_Tempest": {
+            "name": "M-9 Tempest",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "smg",
+            "category": "EReinforcementGUICategory_SMG",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 209731,
+            "inventory_ids": {
+                "base": 30
+            }
+        },
+        "SFXGameContent.SFXWeapon_SMG_Locust": {
+            "name": "M-12 Locust",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "smg",
+            "category": "EReinforcementGUICategory_SMG",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 546170,
+            "inventory_ids": {
+                "base": 27
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Eviscerator": {
+            "name": "M-22 Eviscerator",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 314330,
+            "inventory_ids": {
+                "base": 15
+            }
+        },
+        "SFXGameContent.SFXWeapon_SniperRifle_Incisor": {
+            "name": "M-29 Incisor",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 10,
+            "gui_name_id": 546171,
+            "inventory_ids": {
+                "base": 8
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Falcon": {
+            "name": "M-37 Falcon",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 550944,
+            "inventory_ids": {
+                "base": 5
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Revenant": {
+            "name": "M-76 Revenant",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 209729,
+            "inventory_ids": {
+                "base": 6
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Geth": {
+            "name": "Geth Pulse Rifle",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 546169,
+            "inventory_ids": {
+                "base": 2
+            }
+        },
+        "SFXGameContent.SFXWeapon_Pistol_Thor": {
+            "name": "Arc Pistol",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 551034,
+            "inventory_ids": {
+                "base": 23
+            }
+        },
+        "SFXGameContent.SFXWeapon_Pistol_Carnifex": {
+            "name": "M-6 Carnifex",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 209733,
+            "inventory_ids": {
+                "base": 21
+            }
+        },
+        "SFXGameContent.SFXWeapon_SMG_Hornet": {
+            "name": "M-25 Hornet",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "smg",
+            "category": "EReinforcementGUICategory_SMG",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 551028,
+            "inventory_ids": {
+                "base": 28
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Graal": {
+            "name": "Graal Spike Thrower",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 551037,
+            "inventory_ids": {
+                "base": 18
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Claymore": {
+            "name": "M-300 Claymore",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 209736,
+            "inventory_ids": {
+                "base": 14
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Disciple": {
+            "name": "Disciple",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 581148,
+            "inventory_ids": {
+                "base": 19
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Geth": {
+            "name": "Geth Plasma Shotgun",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 560869,
+            "inventory_ids": {
+                "base": 16
+            }
+        },
+        "SFXGameContent.SFXWeapon_SniperRifle_Widow": {
+            "name": "M-98 Widow",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 209739,
+            "inventory_ids": {
+                "base": 13
+            }
+        },
+        "SFXGameContent.SFXWeapon_Pistol_Scorpion": {
+            "name": "Scorpion Pistol",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 551025,
+            "inventory_ids": {
+                "base": 26
+            }
+        },
+        "SFXGameContent.SFXWeapon_SniperRifle_Javelin": {
+            "name": "Javelin",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 551047,
+            "inventory_ids": {
+                "base": 11
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Saber": {
+            "name": "M-99 Saber",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 676841,
+            "inventory_ids": {
+                "base": 135
+            }
+        },
+        "SFXGameContent.SFXWeapon_Pistol_Talon": {
+            "name": "M-358 Talon",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 551031,
+            "inventory_ids": {
+                "base": 22
+            }
+        },
+        "SFXGameContent.SFXWeapon_SniperRifle_BlackWidow": {
+            "name": "Black Widow",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 692577,
+            "inventory_ids": {
+                "base": 136
+            }
+        },
+        "SFXGameContent.SFXWeapon_Pistol_Ivory": {
+            "name": "M-77 Paladin",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 704673,
+            "inventory_ids": {
+                "base": 138
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Striker": {
+            "name": "Wraith",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 709355,
+            "inventory_ids": {
+                "base": 137
+            }
+        },
+        "SFXGameContentDLC_CON_MP1.SFXWeapon_AssaultRifle_Krogan": {
+            "name": "Striker Assault Rifle",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 728040,
+            "inventory_ids": {
+                "base": 274
+            }
+        },
+        "SFXGameContentDLC_CON_MP1.SFXWeapon_SniperRifle_Batarian": {
+            "name": "Kishock Harpoon Gun",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 728034,
+            "inventory_ids": {
+                "base": 275
+            }
+        },
+        "SFXGameContentDLC_CON_MP1.SFXWeapon_SMG_Geth": {
+            "name": "Geth Plasma SMG",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "smg",
+            "category": "EReinforcementGUICategory_SMG",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 728037,
+            "inventory_ids": {
+                "base": 276
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXWeapon_SniperRifle_Turian": {
+            "name": "Krysae Sniper Rifle",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 731640,
+            "inventory_ids": {
+                "base": 288
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXWeapon_Shotgun_Quarian": {
+            "name": "Reegar Carbine",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 731638,
+            "inventory_ids": {
+                "base": 287
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXWeapon_Pistol_Asari": {
+            "name": "Acolyte",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 744302,
+            "inventory_ids": {
+                "base": 470
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXWeapon_Shotgun_Assault": {
+            "name": "N7 Piranha",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 744389,
+            "inventory_ids": {
+                "base": 469
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXWeapon_SniperRifle_Collector": {
+            "name": "Collector Sniper Rifle",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 766350,
+            "inventory_ids": {
+                "base": 532
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXWeapon_SMG_Collector": {
+            "name": "Collector SMG",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "SMG",
+            "category": "EReinforcementGUICategory_SMG",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 766347,
+            "inventory_ids": {
+                "base": 533
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeapon_AssaultRifle_Lancer_MP": {
+            "name": "M-7 Lancer",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 793101,
+            "inventory_ids": {
+                "base": 623
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeapon_SMG_Bloodpack_MP": {
+            "name": "Blood Pack Punisher",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "SMG",
+            "category": "EReinforcementGUICategory_SMG",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 766089,
+            "inventory_ids": {
+                "base": 624
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeapon_Shotgun_Salarian_MP": {
+            "name": "Venom Shotgun",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 788084,
+            "inventory_ids": {
+                "base": 625
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeapon_AssaultRifle_Adas_MP": {
+            "name": "Adas Anti-Synthetic Rifle",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 766086,
+            "inventory_ids": {
+                "base": 627
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeapon_Pistol_Bloodpack_MP": {
+            "name": "Executioner Pistol",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 788082,
+            "inventory_ids": {
+                "base": 628
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeapon_Pistol_Silencer_MP": {
+            "name": "M-11 Suppressor",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 793182,
+            "inventory_ids": {
+                "base": 629
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Collector": {
+            "name": "Collector Rifle",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 341115,
+            "inventory_ids": {
+                "base": 1
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXWeapon_AssaultRifle_Cerberus": {
+            "name": "Cerberus Harrier",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 731643,
+            "inventory_ids": {
+                "base": 286
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXWeapon_AssaultRifle_Prothean_MP": {
+            "name": "Particle Rifle",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 727492,
+            "inventory_ids": {
+                "base": 358
+            }
+        },
+        "SFXGameContent.SFXWeapon_Pistol_Eagle": {
+            "name": "N7 Eagle",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "pistol",
+            "category": "EReinforcementGUICategory_Pistol",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 650898,
+            "inventory_ids": {
+                "base": 263
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Crusader": {
+            "name": "N7 Crusader",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 573102,
+            "inventory_ids": {
+                "base": 262
+            }
+        },
+        "SFXGameContent.SFXWeapon_SniperRifle_Valiant": {
+            "name": "N7 Valiant",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 573104,
+            "inventory_ids": {
+                "base": 110
+            }
+        },
+        "SFXGameContent.SFXWeapon_SniperRifle_Indra": {
+            "name": "M-90 Indra",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "sniper",
+            "category": "EReinforcementGUICategory_SniperRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 573103,
+            "inventory_ids": {
+                "base": 369
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Valkyrie": {
+            "name": "N7 Valkyrie",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 573098,
+            "inventory_ids": {
+                "base": 368
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Argus": {
+            "name": "M-55 Argus",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 573099,
+            "inventory_ids": {
+                "base": 367
+            }
+        },
+        "SFXGameContent.SFXWeapon_SMG_Hurricane": {
+            "name": "N7 Hurricane",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "smg",
+            "category": "EReinforcementGUICategory_SMG",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 573100,
+            "inventory_ids": {
+                "base": 264
+            }
+        },
+        "SFXGameContent.SFXWeapon_Shotgun_Raider": {
+            "name": "AT-12 Raider",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "shotgun",
+            "category": "EReinforcementGUICategory_Shotgun",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 573101,
+            "inventory_ids": {
+                "base": 370
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXWeapon_AssaultRifle_LMG": {
+            "name": "N7 Typhoon",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 744335,
+            "inventory_ids": {
+                "base": 468
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeapon_AssaultRifle_Spitfire": {
+            "name": "Geth Spitfire",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 10,
+            "gui_name_id": 814438,
+            "inventory_ids": {
+                "base": 626
+            }
+        },
+        "SFXGameContent.SFXWeapon_AssaultRifle_Reckoning": {
+            "name": "Chakram Launcher",
+            "kind": "gear",
+            "type": "weapon",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "assault",
+            "category": "EReinforcementGUICategory_AssaultRifle",
+            "rarity": "Rarity_Rare",
+            "max_count": 10,
+            "gui_name_id": 708423,
+            "inventory_ids": {
+                "base": 700
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_PistolAccuracy": {
+            "name": "Pistol Scope",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Pistol",
+            "gui_type": "pistolmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519359,
+            "inventory_ids": {
+                "base": 47
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_SMGMagSize": {
+            "name": "SMG Magazine Upgrade",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "SMG",
+            "gui_type": "smgmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519470,
+            "inventory_ids": {
+                "base": 54
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_AssaultRifleStability": {
+            "name": "Assault Rifle Stability Damper",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Assault Rifle",
+            "gui_type": "assaultmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 518980,
+            "inventory_ids": {
+                "base": 33
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_ShotgunAccuracy": {
+            "name": "Shotgun Smart Choke",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Shotgun",
+            "gui_type": "shotgunmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519500,
+            "inventory_ids": {
+                "base": 44
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_SniperRifleReloadSpeed": {
+            "name": "Sniper Rifle Spare Thermal Clip",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Sniper Rifle",
+            "gui_type": "snipermod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519536,
+            "inventory_ids": {
+                "base": 38
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_PistolMagSize": {
+            "name": "Pistol Magazine Upgrade",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Pistol",
+            "gui_type": "pistolmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519438,
+            "inventory_ids": {
+                "base": 49
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_PistolDamage": {
+            "name": "Pistol High-Caliber Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Pistol",
+            "gui_type": "pistolmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519355,
+            "inventory_ids": {
+                "base": 46
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_SMGAccuracy": {
+            "name": "SMG Scope",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "SMG",
+            "gui_type": "smgmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519472,
+            "inventory_ids": {
+                "base": 52
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_SMGConstraintDamage": {
+            "name": "SMG Heat Sink",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "SMG",
+            "gui_type": "smgmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519476,
+            "inventory_ids": {
+                "base": 55
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_AssaultRifleAccuracy": {
+            "name": "Assault Rifle Precision Scope",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Assault Rifle",
+            "gui_type": "assaultmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 515088,
+            "inventory_ids": {
+                "base": 32
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_AssaultRifleMagSize": {
+            "name": "Assault Rifle Magazine Upgrade",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Assault Rifle",
+            "gui_type": "assaultmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 518985,
+            "inventory_ids": {
+                "base": 34
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_ShotgunDamage": {
+            "name": "Shotgun High Caliber Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Shotgun",
+            "gui_type": "shotgunmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519486,
+            "inventory_ids": {
+                "base": 41
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_ShotgunMeleeDamage": {
+            "name": "Shotgun Blade Attachment",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Shotgun",
+            "gui_type": "shotgunmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Common",
+            "max_count": 5,
+            "gui_name_id": 519504,
+            "inventory_ids": {
+                "base": 42
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_SniperRifleDamage": {
+            "name": "Sniper Rifle Extended Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Sniper Rifle",
+            "gui_type": "snipermod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 519527,
+            "inventory_ids": {
+                "base": 36
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_PistolStability": {
+            "name": "Pistol Melee Stunner",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Pistol",
+            "gui_type": "pistolmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 519357,
+            "inventory_ids": {
+                "base": 48
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_PistolReloadSpeed": {
+            "name": "Pistol Piercing Mod",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Pistol",
+            "gui_type": "pistolmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 519352,
+            "inventory_ids": {
+                "base": 50
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_SMGStability": {
+            "name": "SMG Ultralight Materials",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "SMG",
+            "gui_type": "smgmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 519474,
+            "inventory_ids": {
+                "base": 53
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_SMGDamage": {
+            "name": "SMG High Caliber Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "SMG",
+            "gui_type": "smgmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 519468,
+            "inventory_ids": {
+                "base": 51
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_AssaultRifleDamage": {
+            "name": "Assault Rifle Extended Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Assault Rifle",
+            "gui_type": "assaultmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 518965,
+            "inventory_ids": {
+                "base": 31
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_AssaultRifleForce": {
+            "name": "Assault Rifle Piercing Mod",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Assault Rifle",
+            "gui_type": "assaultmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 518987,
+            "inventory_ids": {
+                "base": 35
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_ShotgunStability": {
+            "name": "Shotgun Spare Thermal Clip",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Shotgun",
+            "gui_type": "shotgunmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 519508,
+            "inventory_ids": {
+                "base": 43
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_ShotgunReloadSpeed": {
+            "name": "Shotgun Shredder Mod",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Shotgun",
+            "gui_type": "shotgunmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 519482,
+            "inventory_ids": {
+                "base": 45
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_SniperRifleAccuracy": {
+            "name": "Sniper Rifle Enhanced Scope",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Sniper Rifle",
+            "gui_type": "snipermod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 519534,
+            "inventory_ids": {
+                "base": 37
+            }
+        },
+        "SFXGameContent.SFXWeaponMod_SniperRifleConstraintDamage": {
+            "name": "Sniper Rifle Piercing Mod",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Sniper Rifle",
+            "gui_type": "snipermod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 519550,
+            "inventory_ids": {
+                "base": 40
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_AssaultRifleMelee": {
+            "name": "Assault Rifle Omni-Blade",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Assault Rifle",
+            "gui_type": "assaultmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 746321,
+            "inventory_ids": {
+                "base": 466
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_AssaultRifleSuperPen": {
+            "name": "Assault Rifle High-Velocity Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Assault Rifle",
+            "gui_type": "assaultmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 746486,
+            "inventory_ids": {
+                "base": 467
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_AssaultRifleSuperScope": {
+            "name": "Assault Rifle Thermal Scope",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Assault Rifle",
+            "gui_type": "assaultmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 746481,
+            "inventory_ids": {
+                "base": 406
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_SniperRifleDamageAndPen": {
+            "name": "Sniper Rifle High-Velocity Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Sniper Rifle",
+            "gui_type": "snipermod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 747588,
+            "inventory_ids": {
+                "base": 414
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_SniperRifleSuperScope": {
+            "name": "Sniper Rifle Thermal Scope",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Sniper Rifle",
+            "gui_type": "snipermod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 747583,
+            "inventory_ids": {
+                "base": 415
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_ShotgunDamageAndPen": {
+            "name": "Shotgun High-Velocity Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Shotgun",
+            "gui_type": "shotgunmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 747578,
+            "inventory_ids": {
+                "base": 410
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_ShotgunSuperMelee": {
+            "name": "Shotgun Omni-Blade",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Shotgun",
+            "gui_type": "shotgunmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 747574,
+            "inventory_ids": {
+                "base": 411
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_PistolHeadShot": {
+            "name": "Pistol Cranial Trauma System",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Pistol",
+            "gui_type": "pistolmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 747595,
+            "inventory_ids": {
+                "base": 407
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_PistolSuperDamage": {
+            "name": "Pistol Heavy Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Pistol",
+            "gui_type": "pistolmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 747591,
+            "inventory_ids": {
+                "base": 408
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_PistolUltraLight": {
+            "name": "Ultralight Pistol Materials",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Pistol",
+            "gui_type": "pistolmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 747597,
+            "inventory_ids": {
+                "base": 409
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_SMGPenetration": {
+            "name": "SMG High-Velocity Barrel",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "SMG",
+            "gui_type": "smgmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 746472,
+            "inventory_ids": {
+                "base": 412
+            }
+        },
+        "SFXGameContentDLC_Shared.SFXWeaponMod_SMGStabilization": {
+            "name": "SMG Recoil System",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "SMG",
+            "gui_type": "smgmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 746467,
+            "inventory_ids": {
+                "base": 413
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeaponMod_AssaultRifleUltraLight_MP5": {
+            "name": "Assault Rifle Ultralight Materials",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Assault Rifle",
+            "gui_type": "assaultmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 806005,
+            "inventory_ids": {
+                "base": 653
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeaponMod_SniperRifleUltraLight_MP5": {
+            "name": "Sniper Rifle Ultralight Materials",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Sniper Rifle",
+            "gui_type": "snipermod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 806007,
+            "inventory_ids": {
+                "base": 654
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeaponMod_ShotgunUltraLight_MP5": {
+            "name": "Shotgun Ultralight Materials",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Shotgun",
+            "gui_type": "shotgunmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 806004,
+            "inventory_ids": {
+                "base": 655
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeaponMod_PistolPowerDamage_MP5": {
+            "name": "Pistol Power Magnifier",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "Pistol",
+            "gui_type": "pistolmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 806008,
+            "inventory_ids": {
+                "base": 656
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXWeaponMod_SMGPowerDamage_MP5": {
+            "name": "SMG Power Magnifier",
+            "kind": "gear",
+            "type": "mod",
+            "class": null,
+            "weapon_type": "SMG",
+            "gui_type": "smgmod",
+            "category": "EReinforcementGUICategory_Mod",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 806009,
+            "inventory_ids": {
+                "base": 657
+            }
+        },
+        "AdeptHumanMale": {
+            "name": "Male Human Adept",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711364,
+            "inventory_ids": {
+                "base": 248
+            }
+        },
+        "AdeptHumanFemale": {
+            "name": "Female Human Adept",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711370,
+            "inventory_ids": {
+                "base": 247
+            }
+        },
+        "EngineerHumanMale": {
+            "name": "Male Human Engineer",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711365,
+            "inventory_ids": {
+                "base": 250
+            }
+        },
+        "EngineerHumanFemale": {
+            "name": "Female Human Engineer",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711371,
+            "inventory_ids": {
+                "base": 249
+            }
+        },
+        "InfiltratorHumanMale": {
+            "name": "Male Human Infiltrator",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711366,
+            "inventory_ids": {
+                "base": 252
+            }
+        },
+        "InfiltratorHumanFemale": {
+            "name": "Female Human Infiltrator",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711372,
+            "inventory_ids": {
+                "base": 251
+            }
+        },
+        "SentinelHumanMale": {
+            "name": "Male Human Sentinel",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711367,
+            "inventory_ids": {
+                "base": 254
+            }
+        },
+        "SentinelHumanFemale": {
+            "name": "Female Human Sentinel",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711373,
+            "inventory_ids": {
+                "base": 253
+            }
+        },
+        "SoldierHumanMale": {
+            "name": "Male Human Soldier",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711368,
+            "inventory_ids": {
+                "base": 256
+            }
+        },
+        "SoldierHumanFemale": {
+            "name": "Female Human Soldier",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711374,
+            "inventory_ids": {
+                "base": 255
+            }
+        },
+        "VanguardHumanMale": {
+            "name": "Male Human Vanguard",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711369,
+            "inventory_ids": {
+                "base": 258
+            }
+        },
+        "VanguardHumanFemale": {
+            "name": "Female Human Vanguard",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711375,
+            "inventory_ids": {
+                "base": 257
+            }
+        },
+        "InfiltratorHumanFemaleBF3": {
+            "name": "Battlefield 3 Infiltrator",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": null,
+            "gui_name_id": 723371,
+            "inventory_ids": {}
+        },
+        "SoldierGethDestroyer": {
+            "name": "Geth Juggernaut",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 782882,
+            "inventory_ids": {
+                "base": 576
+            }
+        },
+        "AdeptCollector": {
+            "name": "Awakened Collector",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 4,
+            "gui_name_id": 783880,
+            "inventory_ids": {
+                "base": 577
+            }
+        },
+        "SentinelKroganWarlord": {
+            "name": "Krogan Warlord",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 788575,
+            "inventory_ids": {
+                "base": 583
+            }
+        },
+        "EngineerMerc": {
+            "name": "Talon Mercenary",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 788576,
+            "inventory_ids": {
+                "base": 584
+            }
+        },
+        "VanguardTurianFemale": {
+            "name": "Cabal Vanguard",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 812774,
+            "inventory_ids": {
+                "base": 592
+            }
+        },
+        "InfiltratorFembot": {
+            "name": "Alliance Infiltration Unit",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 3,
+            "gui_name_id": 812009,
+            "inventory_ids": {
+                "base": 602
+            }
+        },
+        "AdeptDrell": {
+            "name": "Drell Adept",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 711377,
+            "inventory_ids": {
+                "base": 218
+            }
+        },
+        "VanguardDrell": {
+            "name": "Drell Vanguard",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 711386,
+            "inventory_ids": {
+                "base": 227
+            }
+        },
+        "EngineerSalarian": {
+            "name": "Salarian Engineer",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 711379,
+            "inventory_ids": {
+                "base": 220
+            }
+        },
+        "InfiltratorSalarian": {
+            "name": "Salarian Infiltrator",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 711380,
+            "inventory_ids": {
+                "base": 221
+            }
+        },
+        "InfiltratorQuarian": {
+            "name": "Quarian Infiltrator",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 711381,
+            "inventory_ids": {
+                "base": 222
+            }
+        },
+        "EngineerQuarian": {
+            "name": "Quarian Engineer",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 711378,
+            "inventory_ids": {
+                "base": 219
+            }
+        },
+        "SentinelTurian": {
+            "name": "Turian Sentinel",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 711382,
+            "inventory_ids": {
+                "base": 223
+            }
+        },
+        "SoldierTurian": {
+            "name": "Turian Soldier",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 711385,
+            "inventory_ids": {
+                "base": 226
+            }
+        },
+        "VanguardAsari": {
+            "name": "Asari Vanguard",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 711387,
+            "inventory_ids": {
+                "base": 228
+            }
+        },
+        "AdeptAsari": {
+            "name": "Asari Adept",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 711376,
+            "inventory_ids": {
+                "base": 217
+            }
+        },
+        "SentinelKrogan": {
+            "name": "Krogan Sentinel",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 711383,
+            "inventory_ids": {
+                "base": 224
+            }
+        },
+        "SoldierKrogan": {
+            "name": "Krogan Soldier",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 711384,
+            "inventory_ids": {
+                "base": 225
+            }
+        },
+        "EngineerGeth": {
+            "name": "Geth Engineer",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 727591,
+            "inventory_ids": {
+                "base": 238
+            }
+        },
+        "InfiltratorGeth": {
+            "name": "Geth Infiltrator",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 727592,
+            "inventory_ids": {
+                "base": 239
+            }
+        },
+        "SoldierBatarian": {
+            "name": "Batarian Soldier",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 728174,
+            "inventory_ids": {
+                "base": 240
+            }
+        },
+        "SentinelBatarian": {
+            "name": "Batarian Sentinel",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 728173,
+            "inventory_ids": {
+                "base": 267
+            }
+        },
+        "VanguardKrogan": {
+            "name": "Krogan Battlemaster",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 340581,
+            "inventory_ids": {
+                "base": 272
+            }
+        },
+        "AdeptAsariCommando": {
+            "name": "Asari Justicar",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 313998,
+            "inventory_ids": {
+                "base": 273
+            }
+        },
+        "EngineerQuarianMale": {
+            "name": "Quarian Engineer",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 339567,
+            "inventory_ids": {
+                "base": 280
+            }
+        },
+        "InfiltratorQuarianMale": {
+            "name": "Quarian Infiltrator",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 711381,
+            "inventory_ids": {
+                "base": 281
+            }
+        },
+        "SoldierVorcha": {
+            "name": "Vorcha Soldier",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 731344,
+            "inventory_ids": {
+                "base": 278
+            }
+        },
+        "SentinelVorcha": {
+            "name": "Vorcha Sentinel",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 731345,
+            "inventory_ids": {
+                "base": 279
+            }
+        },
+        "VanguardHumanMaleCerberus": {
+            "name": "Human Vanguard",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 727968,
+            "inventory_ids": {
+                "base": 283
+            }
+        },
+        "AdeptHumanMaleCerberus": {
+            "name": "Human Adept",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 727969,
+            "inventory_ids": {
+                "base": 282
+            }
+        },
+        "EngineerN7": {
+            "name": "N7 Demolisher",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 745672,
+            "inventory_ids": {
+                "base": 374
+            }
+        },
+        "InfiltratorN7": {
+            "name": "N7 Shadow",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 745673,
+            "inventory_ids": {
+                "base": 377
+            }
+        },
+        "VanguardN7": {
+            "name": "N7 Slayer",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 745674,
+            "inventory_ids": {
+                "base": 376
+            }
+        },
+        "SoldierN7": {
+            "name": "N7 Destroyer",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 745670,
+            "inventory_ids": {
+                "base": 378
+            }
+        },
+        "SentinelN7": {
+            "name": "N7 Paladin",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 745671,
+            "inventory_ids": {
+                "base": 375
+            }
+        },
+        "AdeptN7": {
+            "name": "N7 Fury",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 745675,
+            "inventory_ids": {
+                "base": 373
+            }
+        },
+        "EngineerVolus": {
+            "name": "Volus Engineer",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 4,
+            "gui_name_id": 765342,
+            "inventory_ids": {
+                "base": 501
+            }
+        },
+        "AdeptVolus": {
+            "name": "Volus Adept",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_UltraRare",
+            "max_count": 4,
+            "gui_name_id": 765341,
+            "inventory_ids": {
+                "base": 500
+            }
+        },
+        "N7SoldierTurian": {
+            "name": "Turian Havoc",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 766462,
+            "inventory_ids": {
+                "base": 480
+            }
+        },
+        "N7InfiltratorTurian": {
+            "name": "Turian Ghost",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 766463,
+            "inventory_ids": {
+                "base": 481
+            }
+        },
+        "AdeptKrogan": {
+            "name": "Krogan Shaman",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 768065,
+            "inventory_ids": {
+                "base": 514
+            }
+        },
+        "EngineerTurian": {
+            "name": "Turian Saboteur",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 768066,
+            "inventory_ids": {
+                "base": 503
+            }
+        },
+        "InfiltratorDrell": {
+            "name": "Drell Assassin",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 768067,
+            "inventory_ids": {
+                "base": 504
+            }
+        },
+        "SentinelVolus": {
+            "name": "Volus Mercenary",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 768068,
+            "inventory_ids": {
+                "base": 505
+            }
+        },
+        "SoldierGeth": {
+            "name": "Geth Trooper",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 768069,
+            "inventory_ids": {
+                "base": 506
+            }
+        },
+        "VanguardVolus": {
+            "name": "Volus Protector",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 768070,
+            "inventory_ids": {
+                "base": 507
+            }
+        },
+        "AdeptBatarian": {
+            "name": "Batarian Slasher",
+            "kind": "unit",
+            "type": null,
+            "class": "Adept",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 768111,
+            "inventory_ids": {
+                "base": 508
+            }
+        },
+        "EngineerVorcha": {
+            "name": "Vorcha Hunter",
+            "kind": "unit",
+            "type": null,
+            "class": "Engineer",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 768112,
+            "inventory_ids": {
+                "base": 509
+            }
+        },
+        "InfiltratorAsari": {
+            "name": "Asari Huntress",
+            "kind": "unit",
+            "type": null,
+            "class": "Infiltrator",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 768113,
+            "inventory_ids": {
+                "base": 510
+            }
+        },
+        "SentinelAsari": {
+            "name": "Asari Valkyrie",
+            "kind": "unit",
+            "type": null,
+            "class": "Sentinel",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 768114,
+            "inventory_ids": {
+                "base": 511
+            }
+        },
+        "SoldierMQuarian": {
+            "name": "Quarian Marksman",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 4,
+            "gui_name_id": 768115,
+            "inventory_ids": {
+                "base": 512
+            }
+        },
+        "VanguardBatarian": {
+            "name": "Batarian Brawler",
+            "kind": "unit",
+            "type": null,
+            "class": "Vanguard",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": "EReinforcementGUICategory_Kit",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 768116,
+            "inventory_ids": {
+                "base": 513
+            }
+        },
+        "SoldierHumanMaleBF3": {
+            "name": "Battlefield 3 Soldier",
+            "kind": "unit",
+            "type": null,
+            "class": "Soldier",
+            "weapon_type": null,
+            "gui_type": "char",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 723302,
+            "inventory_ids": {
+                "base": 268
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_HeadshotDamage": {
+            "name": "Vulnerability VI",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733118,
+            "inventory_ids": {
+                "0": 331
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_MeleeDamage": {
+            "name": "Hydraulic Joints",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733122,
+            "inventory_ids": {
+                "0": 330
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_PowerBonus_Cooldown": {
+            "name": "Structural Ergonomics",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733124,
+            "inventory_ids": {
+                "0": 333
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_PowerBonus_Damage": {
+            "name": "Mental Focuser",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733126,
+            "inventory_ids": {
+                "0": 332
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_ShieldRegen": {
+            "name": "Multicapacitor",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733128,
+            "inventory_ids": {
+                "0": 335
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_ShieldStrength": {
+            "name": "Shield Booster",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733130,
+            "inventory_ids": {
+                "0": 334
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_WeaponDamage_AssaultRifle": {
+            "name": "Assault Rifle Amp",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733132,
+            "inventory_ids": {
+                "0": 337
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_WeaponDamage_SniperRifle": {
+            "name": "Sniper Rifle Amp",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733133,
+            "inventory_ids": {
+                "0": 338
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_WeaponDamage_Shotgun": {
+            "name": "Shotgun Amp",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733134,
+            "inventory_ids": {
+                "0": 339
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_WeaponDamage_Pistol": {
+            "name": "Pistol Amp",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733135,
+            "inventory_ids": {
+                "0": 340
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_WeaponDamage_SMG": {
+            "name": "SMG Amp",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733136,
+            "inventory_ids": {
+                "0": 341
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_WeaponStability": {
+            "name": "Vibration Damper",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 733137,
+            "inventory_ids": {
+                "0": 701
+            }
+        },
+        "SFXGameMPContentDLC_Shared_MP.SFXGameEffect_MatchConsumable_Gear_AmmoCapacity": {
+            "name": "Thermal Clip Storage",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 750122,
+            "inventory_ids": {
+                "0": 423,
+                "1": 441,
+                "2": 452
+            }
+        },
+        "SFXGameMPContentDLC_Shared_MP.SFXGameEffect_MatchConsumable_Gear_BioticDamage": {
+            "name": "Adaptive War Amp",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 750120,
+            "inventory_ids": {
+                "0": 424,
+                "1": 442,
+                "2": 453
+            }
+        },
+        "SFXGameMPContentDLC_Shared_MP.SFXGameEffect_MatchConsumable_Gear_TechDamage": {
+            "name": "Engineering Kit",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 750118,
+            "inventory_ids": {
+                "0": 425,
+                "1": 443,
+                "2": 454
+            }
+        },
+        "SFXGameMPContentDLC_Shared_MP.SFXGameEffect_MatchConsumable_Gear_WeaponDamage_All": {
+            "name": "Densified Ammunition",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Uncommon",
+            "max_count": 5,
+            "gui_name_id": 750124,
+            "inventory_ids": {
+                "0": 426,
+                "1": 444,
+                "2": 455
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXGameEffect_MatchConsumable_Gear_MassMedigel": {
+            "name": "Medi-Gel Transmitter",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 770267,
+            "inventory_ids": {
+                "0": 536
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXGameEffect_MatchConsumable_Gear_CobraCapacity": {
+            "name": "Armored Compartments",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 770269,
+            "inventory_ids": {
+                "0": 537
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXGameEffect_MatchConsumable_Gear_MedigelCapacity": {
+            "name": "Responder Loadout",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 770273,
+            "inventory_ids": {
+                "0": 538
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXGameEffect_MatchConsumable_Gear_SurvivalCapacity": {
+            "name": "Survivor Loadout",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 770275,
+            "inventory_ids": {
+                "0": 539
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXGameEffect_MatchConsumable_Gear_ThermalCapacity": {
+            "name": "Assault Loadout",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 770271,
+            "inventory_ids": {
+                "0": 540
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXGameEffect_MatchConsumable_Gear_VisionHelmet": {
+            "name": "Geth Scanner",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 812168,
+            "inventory_ids": {
+                "0": 603
+            }
+        },
+        "SFXGameContentDLC_CON_MP5.SFXGameEffect_MatchConsumable_Gear_BatarianGauntlet": {
+            "name": "Batarian Gauntlet",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 812523,
+            "inventory_ids": {
+                "0": 604
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_GrenadeCapacity": {
+            "name": "Grenade Capacity",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 733576,
+            "inventory_ids": {
+                "0": 343
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_Combo_AssaultDamageGrenadeCap": {
+            "name": "Warfighter Package",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 733590,
+            "inventory_ids": {
+                "0": 344
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_Combo_PistolDamageBioticDamage": {
+            "name": "Commando Package",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 733592,
+            "inventory_ids": {
+                "0": 345
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_Combo_ShieldStrengthShieldRegen": {
+            "name": "Stronghold Package",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 733594,
+            "inventory_ids": {
+                "0": 346
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_Combo_ShotgunDamageMeleeDamage": {
+            "name": "Berserker Package",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 733596,
+            "inventory_ids": {
+                "0": 347
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_Combo_SMGDamagePowerCooldown": {
+            "name": "Expert Package",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 733598,
+            "inventory_ids": {
+                "0": 348
+            }
+        },
+        "SFXGameContentDLC_CON_MP2.SFXGameEffect_MatchConsumable_Gear_Combo_SniperDamageTechDamage": {
+            "name": "Operative Package",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 733600,
+            "inventory_ids": {
+                "0": 349
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXGameEffect_MatchConsumable_Gear_Combo_AssaultRifleDamagePistolDamage": {
+            "name": "Combatives Upgrade",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 750128,
+            "inventory_ids": {
+                "0": 416,
+                "1": 434,
+                "2": 445
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXGameEffect_MatchConsumable_Gear_Combo_MeleeDamageBioticDamage": {
+            "name": "Martial Biotic Amp",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 750136,
+            "inventory_ids": {
+                "0": 417,
+                "1": 435,
+                "2": 446
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXGameEffect_MatchConsumable_Gear_Combo_ShieldStrengthMeleeDamage": {
+            "name": "Juggernaut Shield",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 750134,
+            "inventory_ids": {
+                "0": 418,
+                "1": 436,
+                "2": 447
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXGameEffect_MatchConsumable_Gear_Combo_ShotgunDamageGrenadeCap": {
+            "name": "Shock Trooper Upgrade",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 750130,
+            "inventory_ids": {
+                "0": 419,
+                "1": 437,
+                "2": 448
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXGameEffect_MatchConsumable_Gear_Combo_SniperDamageSMGDamage": {
+            "name": "Guerrilla Upgrade",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 750126,
+            "inventory_ids": {
+                "0": 420,
+                "1": 438,
+                "2": 449
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXGameEffect_MatchConsumable_Gear_Combo_TechDamagePowerCooldown": {
+            "name": "Omni-Capacitors",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 750138,
+            "inventory_ids": {
+                "0": 421,
+                "1": 439,
+                "2": 450
+            }
+        },
+        "SFXGameContentDLC_CON_MP3.SFXGameEffect_MatchConsumable_Gear_Combo_WeaponStabilityAmmoCapacity": {
+            "name": "Barrage Upgrade",
+            "kind": "gear",
+            "type": "equipment",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "gearUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableGear",
+            "rarity": "Rarity_Rare",
+            "max_count": 5,
+            "gui_name_id": 750132,
+            "inventory_ids": {
+                "0": 422,
+                "1": 440,
+                "2": 451
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_AmmoPower_Incendiary": {
+            "name": "Incendiary Rounds",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "ammoUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableAmmo",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711347,
+            "inventory_ids": {
+                "0": 90,
+                "1": 91,
+                "2": 92,
+                "3": 484
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_AmmoPower_Disruptor": {
+            "name": "Disruptor Rounds",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "ammoUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableAmmo",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711348,
+            "inventory_ids": {
+                "0": 93,
+                "1": 94,
+                "2": 95,
+                "3": 485
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_AmmoPower_ArmorPiercing": {
+            "name": "Armor-Piercing Rounds",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "ammoUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableAmmo",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711349,
+            "inventory_ids": {
+                "0": 96,
+                "1": 97,
+                "2": 98,
+                "3": 486
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_AmmoPower_Warp": {
+            "name": "Warp Rounds",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "ammoUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableAmmo",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711350,
+            "inventory_ids": {
+                "0": 99,
+                "1": 100,
+                "2": 101,
+                "3": 487
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_AmmoPower_Cryo": {
+            "name": "Cryo Rounds",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "ammoUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableAmmo",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711351,
+            "inventory_ids": {
+                "0": 102,
+                "1": 103,
+                "2": 104,
+                "3": 488
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_PowerBonus": {
+            "name": "Power Efficiency Module",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "armorUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableArmor",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711352,
+            "inventory_ids": {
+                "0": 105,
+                "1": 106,
+                "2": 107
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_PowerBonusDamage": {
+            "name": "Power Amplifier Module",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "armorUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableArmor",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711353,
+            "inventory_ids": {
+                "0": 259,
+                "1": 260,
+                "2": 261,
+                "3": 489
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_WeaponDamageBonus_AssaultRifle": {
+            "name": "Assault Rifle Rail Amp",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "weaponUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableWeapon",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711354,
+            "inventory_ids": {
+                "0": 111,
+                "1": 112,
+                "2": 113
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_WeaponDamageBonus_SniperRifle": {
+            "name": "Sniper Rifle Rail Amp",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "weaponUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableWeapon",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711355,
+            "inventory_ids": {
+                "0": 114,
+                "1": 115,
+                "2": 116
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_WeaponDamageBonus_Shotgun": {
+            "name": "Shotgun Rail Amp",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "weaponUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableWeapon",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711356,
+            "inventory_ids": {
+                "0": 117,
+                "1": 118,
+                "2": 119
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_WeaponDamageBonus_Pistol": {
+            "name": "Pistol Rail Amp",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "weaponUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableWeapon",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711357,
+            "inventory_ids": {
+                "0": 120,
+                "1": 121,
+                "2": 122
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_WeaponDamageBonus_SMG": {
+            "name": "SMG Rail Amp",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "weaponUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableWeapon",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711358,
+            "inventory_ids": {
+                "0": 123,
+                "1": 124,
+                "2": 125
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_SpeedBonus": {
+            "name": "Adrenaline Module",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "armorUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableArmor",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711359,
+            "inventory_ids": {
+                "0": 126,
+                "1": 127,
+                "2": 128
+            }
+        },
+        "SFXGameMPContent.SFXGameEffect_MatchConsumable_ShieldBonus": {
+            "name": "Cyclonic Modulator",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "armorUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableArmor",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 711360,
+            "inventory_ids": {
+                "0": 129,
+                "1": 130,
+                "2": 131,
+                "3": 490
+            }
+        },
+        "SFXGameContentDLC_CON_MP1.SFXGameEffect_MatchConsumable_StabilityBonus": {
+            "name": "Stabilization Module",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "armorUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableArmor",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 728048,
+            "inventory_ids": {
+                "0": 73,
+                "1": 74,
+                "2": 75
+            }
+        },
+        "SFXGameContentDLC_CON_MP1.SFXGameEffect_MatchConsumable_MeleeDamage": {
+            "name": "Strength Enhancer",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "weaponUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableWeapon",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 728050,
+            "inventory_ids": {
+                "0": 79,
+                "1": 80,
+                "2": 81
+            }
+        },
+        "SFXGameContentDLC_CON_MP1.SFXGameEffect_MatchConsumable_HeadshotDamage": {
+            "name": "Targeting VI",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "weaponUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableWeapon",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 728052,
+            "inventory_ids": {
+                "0": 82,
+                "1": 83,
+                "2": 84
+            }
+        },
+        "SFXGameContentDLC_CON_MP1.SFXGameEffect_MatchConsumable_ShieldRegenBonus": {
+            "name": "Shield Power Cells",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "armorUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableArmor",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 728054,
+            "inventory_ids": {
+                "0": 76,
+                "1": 77,
+                "2": 78
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXGameEffect_MatchConsumable_AmmoPower_Polonium": {
+            "name": "Polonium Rounds",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "ammoUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableAmmo",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 750415,
+            "inventory_ids": {
+                "0": 515,
+                "1": 520,
+                "2": 525
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXGameEffect_MatchConsumable_AmmoPower_Eraser": {
+            "name": "Rail Rounds",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "ammoUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableAmmo",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 750437,
+            "inventory_ids": {
+                "0": 518,
+                "1": 523,
+                "2": 528
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXGameEffect_MatchConsumable_AmmoPower_Needler": {
+            "name": "Explosive Rounds",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "ammoUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableAmmo",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 750419,
+            "inventory_ids": {
+                "0": 517,
+                "1": 522,
+                "2": 527
+            }
+        },
+        "SFXGameContentDLC_CON_MP4.SFXGameEffect_MatchConsumable_AmmoPower_Phasic": {
+            "name": "Phasic Rounds",
+            "kind": "gear",
+            "type": "consumable",
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "ammoUpgrade",
+            "category": "EReinforcementGUICategory_MatchConsumableAmmo",
+            "rarity": "Rarity_Common",
+            "max_count": null,
+            "gui_name_id": 750421,
+            "inventory_ids": {
+                "0": 519,
+                "1": 524,
+                "2": 529
+            }
+        },
+        "MPCredits": {
+            "name": "+ Credits",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "bonus",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": null,
+            "gui_name_id": 720016,
+            "inventory_ids": {}
+        },
+        "MPCapacity_Ammo": {
+            "name": "Thermal Clip Capacity +",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "capacity",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 6,
+            "gui_name_id": 723382,
+            "inventory_ids": {
+                "base": 242
+            }
+        },
+        "MPCapacity_Revive": {
+            "name": "Medi-Gel Capacity +",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "capacity",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 6,
+            "gui_name_id": 723385,
+            "inventory_ids": {
+                "base": 243
+            }
+        },
+        "MPCapacity_Rocket": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "capacity",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 6,
+            "gui_name_id": 134217771,
+            "inventory_ids": {
+                "base": 244
+            }
+        },
+        "MPCapacity_Shield": {
+            "name": "Ops Survival Pack Capacity +",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "capacity",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 6,
+            "gui_name_id": 723383,
+            "inventory_ids": {
+                "base": 245
+            }
+        },
+        "MPRespec": {
+            "name": "Reset Powers",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "respec",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": 8,
+            "gui_name_id": 708848,
+            "inventory_ids": {
+                "base": 246
+            }
+        },
+        "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Ammo": {
+            "name": "Thermal Clip Pack",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "consumable",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": 255,
+            "gui_name_id": 661162,
+            "inventory_ids": {
+                "base": 86
+            }
+        },
+        "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Revive": {
+            "name": "Medi-Gel",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "consumable",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": 255,
+            "gui_name_id": 661168,
+            "inventory_ids": {
+                "base": 87
+            }
+        },
+        "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Rocket": {
+            "name": "Heavy Weapon Ammo",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "consumable",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": 255,
+            "gui_name_id": 335491,
+            "inventory_ids": {
+                "base": 88
+            }
+        },
+        "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Shield": {
+            "name": "Ops Survival Pack",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "consumable",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": 255,
+            "gui_name_id": 661164,
+            "inventory_ids": {
+                "base": 89
+            }
+        },
+        "MilanBanner_BarCrawler": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_UltraRare",
+            "max_count": 1,
+            "gui_name_id": 134217732,
+            "inventory_ids": {
+                "base": 723
+            }
+        },
+        "MilanBanner_Berserk": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217733,
+            "inventory_ids": {
+                "base": 724
+            }
+        },
+        "MilanBanner_Busted": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217734,
+            "inventory_ids": {
+                "base": 725
+            }
+        },
+        "MilanBanner_Diplomat": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217735,
+            "inventory_ids": {
+                "base": 726
+            }
+        },
+        "MilanBanner_Sunset": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": 1,
+            "gui_name_id": 134217736,
+            "inventory_ids": {
+                "base": 727
+            }
+        },
+        "MilanBanner_KeyartLE1": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": 1,
+            "gui_name_id": 134217737,
+            "inventory_ids": {
+                "base": 728
+            }
+        },
+        "MilanBanner_KeyartLE1_Alt": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217738,
+            "inventory_ids": {
+                "base": 729
+            }
+        },
+        "MilanBanner_KeyartLE2": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Common",
+            "max_count": 1,
+            "gui_name_id": 134217739,
+            "inventory_ids": {
+                "base": 730
+            }
+        },
+        "MilanBanner_Caretaker": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": 1,
+            "gui_name_id": 134217740,
+            "inventory_ids": {
+                "base": 731
+            }
+        },
+        "MilanBanner_Explorer": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": 1,
+            "gui_name_id": 134217741,
+            "inventory_ids": {
+                "base": 732
+            }
+        },
+        "MilanBanner_Pathfinder": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217742,
+            "inventory_ids": {
+                "base": 733
+            }
+        },
+        "MilanBanner_Trailblazer": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217743,
+            "inventory_ids": {
+                "base": 734
+            }
+        },
+        "MilanBanner_Unknown": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217744,
+            "inventory_ids": {
+                "base": 735
+            }
+        },
+        "MilanBanner_Legendary": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217745,
+            "inventory_ids": {
+                "base": 736
+            }
+        },
+        "MilanBanner_Legendary_Alt": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217746,
+            "inventory_ids": {
+                "base": 737
+            }
+        },
+        "MilanBanner_Trilogy": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": 1,
+            "gui_name_id": 134217747,
+            "inventory_ids": {
+                "base": 738
+            }
+        },
+        "MilanBanner_Club": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217748,
+            "inventory_ids": {
+                "base": 739
+            }
+        },
+        "MilanBanner_SFX": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217749,
+            "inventory_ids": {
+                "base": 740
+            }
+        },
+        "MilanBanner_N7S1": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": 1,
+            "gui_name_id": 134217750,
+            "inventory_ids": {
+                "base": 741
+            }
+        },
+        "MilanBanner_MEMP": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": 1,
+            "gui_name_id": 134217751,
+            "inventory_ids": {
+                "base": 742
+            }
+        },
+        "MilanBanner_MEM": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": 1,
+            "gui_name_id": 134217752,
+            "inventory_ids": {
+                "base": 754
+            }
+        },
+        "MilanBanner_ME3Tweaks": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Uncommon",
+            "max_count": 1,
+            "gui_name_id": 134217753,
+            "inventory_ids": {
+                "base": 755
+            }
+        },
+        "MilanBanner_DA_ArlathanGlory": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217754,
+            "inventory_ids": {
+                "base": 744
+            }
+        },
+        "MilanBanner_DA_ArlathanRitual": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217755,
+            "inventory_ids": {
+                "base": 745
+            }
+        },
+        "MilanBanner_DA_FromTrickleToFlood": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217756,
+            "inventory_ids": {
+                "base": 746
+            }
+        },
+        "MilanBanner_DA_TheDeepRoads": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217757,
+            "inventory_ids": {
+                "base": 747
+            }
+        },
+        "MilanBanner_DA_TheLastStraw2": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217758,
+            "inventory_ids": {
+                "base": 749
+            }
+        },
+        "MilanBanner_DA_TheWrathOfHeaven": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217759,
+            "inventory_ids": {
+                "base": 750
+            }
+        },
+        "MilanBanner_DA_Trespasser": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217760,
+            "inventory_ids": {
+                "base": 751
+            }
+        },
+        "MilanBanner_SaveMassEffect": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217761,
+            "inventory_ids": {
+                "base": 752
+            }
+        },
+        "MilanBanner_ach_me1_medalofhonor": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217762,
+            "inventory_ids": {
+                "base": 716
+            }
+        },
+        "MilanBanner_ach_me1_colonialsurvival": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217763,
+            "inventory_ids": {
+                "base": 717
+            }
+        },
+        "MilanBanner_ach_me2_missionaccomplished": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217764,
+            "inventory_ids": {
+                "base": 718
+            }
+        },
+        "MilanBanner_ach_me2_merciless": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217765,
+            "inventory_ids": {
+                "base": 719
+            }
+        },
+        "MilanBanner_ach_me3_missionaccomplished": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217766,
+            "inventory_ids": {
+                "base": 720
+            }
+        },
+        "MilanBanner_ach_me3_theoneandonly": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217767,
+            "inventory_ids": {
+                "base": 721
+            }
+        },
+        "MilanBanner_ach_insanityiii": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "banner",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217768,
+            "inventory_ids": {
+                "base": 722
+            }
+        },
+        "MilanHeavy_Cobra_Hidden": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "heavyweapon",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217777,
+            "inventory_ids": {
+                "base": 800
+            }
+        },
+        "MilanHeavy_Blackstorm": {
+            "name": "M-490 Blackstorm",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "heavyweapon",
+            "category": null,
+            "rarity": "Rarity_UltraRare",
+            "max_count": 1,
+            "gui_name_id": 361364,
+            "inventory_ids": {
+                "base": 801
+            }
+        },
+        "MilanHeavy_Blackstorm_Hidden": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "heavyweapon",
+            "category": null,
+            "rarity": "Rarity_UltraRare",
+            "max_count": 1,
+            "gui_name_id": 134217778,
+            "inventory_ids": {
+                "base": 802
+            }
+        },
+        "MilanHeavy_Blackstar": {
+            "name": "Reaper Blackstar",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "heavyweapon",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 699886,
+            "inventory_ids": {
+                "base": 803
+            }
+        },
+        "MilanHeavy_Blackstar_Hidden": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "heavyweapon",
+            "category": null,
+            "rarity": "Rarity_Rare",
+            "max_count": 1,
+            "gui_name_id": 134217779,
+            "inventory_ids": {
+                "base": 804
+            }
+        },
+        "MilanHeavy_Cain": {
+            "name": "M-920 Cain",
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "heavyweapon",
+            "category": null,
+            "rarity": "Rarity_UltraRare",
+            "max_count": 1,
+            "gui_name_id": 236016,
+            "inventory_ids": {
+                "base": 805
+            }
+        },
+        "MilanHeavy_Cain_Hidden": {
+            "name": null,
+            "kind": null,
+            "type": null,
+            "class": null,
+            "weapon_type": null,
+            "gui_type": "heavyweapon",
+            "category": null,
+            "rarity": "Rarity_UltraRare",
+            "max_count": 1,
+            "gui_name_id": 134217780,
+            "inventory_ids": {
+                "base": 806
+            }
+        }
+    },
+    "unmatched_mappings": [
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_BatarianNet",
+            "id": 39
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_GethMeleePassive",
+            "id": 56
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_GethSentryTurret",
+            "id": 57
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_Supercharge",
+            "id": 58
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_GethTurretAttack",
+            "id": 59
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_GethTurretHeal",
+            "id": 60
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_InfernoGrenade_Batarian",
+            "id": 61
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_Shockwave_Batarian",
+            "id": 62
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_BioticCharge_Krogan",
+            "id": 63
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_KroganPassive_Vanguard",
+            "id": 64
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_Carnage_KroganVanguard",
+            "id": 65
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_Barrier_KroganVanguard",
+            "id": 66
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_KroganMeleePassive_Vanguard",
+            "id": 67
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_BubbleShield",
+            "id": 68
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_AsariCommandoPassive",
+            "id": 69
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_Reave_Asari",
+            "id": 70
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_Pull_Asari",
+            "id": 71
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_AsariMeleePassive_Commando",
+            "id": 72
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_Flamer",
+            "id": 85
+        },
+        {
+            "name": "commendation1",
+            "id": 108
+        },
+        {
+            "name": "victory1",
+            "id": 109
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_Overload_Geth",
+            "id": 132
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_Cloak_Geth",
+            "id": 133
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_ProximityMine_Geth",
+            "id": 134
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_AdrenalineRush",
+            "id": 139
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_AIHacking",
+            "id": 140
+        },
+        {
+            "name": "loyalty1",
+            "id": 141
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Barrier",
+            "id": 142
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_BioticCharge",
+            "id": 143
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_BioticGrenade",
+            "id": 144
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Carnage",
+            "id": 145
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Cloak",
+            "id": 146
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_CombatDrone",
+            "id": 147
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_ConcussiveShot",
+            "id": 148
+        },
+        {
+            "name": "loyalty2",
+            "id": 149
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_CryoBlast",
+            "id": 150
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Decoy",
+            "id": 151
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Discharge",
+            "id": 152
+        },
+        {
+            "name": "loyalty3",
+            "id": 153
+        },
+        {
+            "name": "loyalty4",
+            "id": 154
+        },
+        {
+            "name": "loyalty5",
+            "id": 155
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_EnergyDrain",
+            "id": 156
+        },
+        {
+            "name": "collectible0",
+            "id": 157
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Fortification",
+            "id": 158
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_FragGrenade",
+            "id": 159
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_GethShieldBoost",
+            "id": 160
+        },
+        {
+            "name": "collectible1",
+            "id": 161
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Incinerate",
+            "id": 162
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_InfernoGrenade",
+            "id": 163
+        },
+        {
+            "name": "collectible2",
+            "id": 164
+        },
+        {
+            "name": "collectible3",
+            "id": 165
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_LiftGrenade",
+            "id": 166
+        },
+        {
+            "name": "collectible4",
+            "id": 167
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Marksman",
+            "id": 168
+        },
+        {
+            "name": "collectible5",
+            "id": 169
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Overload",
+            "id": 170
+        },
+        {
+            "name": "collectible6",
+            "id": 171
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_ProximityMine",
+            "id": 172
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Pull",
+            "id": 173
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Reave",
+            "id": 174
+        },
+        {
+            "name": "collectible7",
+            "id": 175
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_SentryTurret",
+            "id": 176
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Shockwave",
+            "id": 177
+        },
+        {
+            "name": "collectible8",
+            "id": 178
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Singularity",
+            "id": 179
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Slam",
+            "id": 180
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Stasis",
+            "id": 181
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_StickyGrenade",
+            "id": 182
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_TechArmor",
+            "id": 183
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Throw",
+            "id": 184
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_Warp",
+            "id": 185
+        },
+        {
+            "name": "premiumcollectible0",
+            "id": 186
+        },
+        {
+            "name": "collector0",
+            "id": 187
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_AsariMeleePassive",
+            "id": 188
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_AsariPassive",
+            "id": 189
+        },
+        {
+            "name": "collector1",
+            "id": 190
+        },
+        {
+            "name": "collector2",
+            "id": 191
+        },
+        {
+            "name": "collector3",
+            "id": 192
+        },
+        {
+            "name": "collector4",
+            "id": 193
+        },
+        {
+            "name": "collector5",
+            "id": 194
+        },
+        {
+            "name": "collector6",
+            "id": 195
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_DrellMeleePassive",
+            "id": 196
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_DrellPassive",
+            "id": 197
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_FemQuarianMeleePassive",
+            "id": 198
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_FemQuarianPassive",
+            "id": 199
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_HumanMeleePassive_Adept",
+            "id": 200
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_HumanMeleePassive_Engineer",
+            "id": 201
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_HumanMeleePassive_Infiltrator",
+            "id": 202
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_HumanMeleePassive_Sentinel",
+            "id": 203
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_HumanMeleePassive_Soldier",
+            "id": 204
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_HumanMeleePassive_Vanguard",
+            "id": 205
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_HumanPassive",
+            "id": 206
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_KroganMeleePassive",
+            "id": 207
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_KroganPassive",
+            "id": 208
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_SalarianMeleePassive",
+            "id": 209
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_SalarianPassive",
+            "id": 210
+        },
+        {
+            "name": "collector7",
+            "id": 211
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_TurianMeleePassive",
+            "id": 212
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_TurianPassive",
+            "id": 213
+        },
+        {
+            "name": "collector8",
+            "id": 214
+        },
+        {
+            "name": "premiumcollectible1",
+            "id": 215
+        },
+        {
+            "name": "premiumcollectible2",
+            "id": 216
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_BatarianPassive",
+            "id": 229
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_BatarianMeleePassive",
+            "id": 230
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_BatarianAttack",
+            "id": 231
+        },
+        {
+            "name": "avengerpack",
+            "id": 233
+        },
+        {
+            "name": "premiumcollectible4",
+            "id": 234
+        },
+        {
+            "name": "premiumcollectible5",
+            "id": 235
+        },
+        {
+            "name": "collector9",
+            "id": 236
+        },
+        {
+            "name": "collector10",
+            "id": 237
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_BatarianArmor",
+            "id": 241
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_TechArmor_Turian",
+            "id": 265
+        },
+        {
+            "name": "SFXGameMPContent.SFXPowerCustomActionMP_TechArmor_Krogan",
+            "id": 266
+        },
+        {
+            "name": "bf3",
+            "id": 269
+        },
+        {
+            "name": "LastPromoIDShown",
+            "id": 270
+        },
+        {
+            "name": "NewlyAffordableStoreItems",
+            "id": 271
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP1.SFXPowerCustomActionMP_GethPassive",
+            "id": 277
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_Lash",
+            "id": 284
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_BloodLust",
+            "id": 285
+        },
+        {
+            "name": "collector11",
+            "id": 329
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_Damping",
+            "id": 342
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_WhipManPassive",
+            "id": 356
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_WhipManMeleePassive",
+            "id": 357
+        },
+        {
+            "name": "commendation2",
+            "id": 359
+        },
+        {
+            "name": "victory2",
+            "id": 360
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomAction_WhipSmash",
+            "id": 361
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomAction_EMPGrenade",
+            "id": 362
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_MaleQuarianMeleePassive",
+            "id": 363
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_MaleQuarianPassive",
+            "id": 364
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_VorchaMeleePassive",
+            "id": 365
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP2.SFXPowerCustomActionMP_VorchaPassive",
+            "id": 366
+        },
+        {
+            "name": "commendation2v2",
+            "id": 371
+        },
+        {
+            "name": "reserves1",
+            "id": 372
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_CryoCone",
+            "id": 379
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7SentinelPassive",
+            "id": 380
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7SentinelMeleePassive",
+            "id": 381
+        },
+        {
+            "name": "customer1",
+            "id": 382
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7SoldierPassive",
+            "id": 383
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7SoldierMeleePassive",
+            "id": 384
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7EngineerPassive",
+            "id": 385
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7EngineerMeleePassive",
+            "id": 386
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7InfiltratorPassive",
+            "id": 387
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7InfiltratorMeleePassive",
+            "id": 388
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7VanguardPassive",
+            "id": 389
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7VanguardMeleePassive",
+            "id": 390
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7AdeptPassive",
+            "id": 391
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_N7AdeptMeleePassive",
+            "id": 392
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_SupplyTurret",
+            "id": 393
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomAction_DevestatorMode",
+            "id": 394
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomAction_MissileLauncher",
+            "id": 395
+        },
+        {
+            "name": "victory3",
+            "id": 396
+        },
+        {
+            "name": "commendation3",
+            "id": 397
+        },
+        {
+            "name": "mp2press",
+            "id": 398
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_SonicSlash",
+            "id": 400
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_ShadowStrike",
+            "id": 401
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_Cloak_N7Infiltrator",
+            "id": 402
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_PalmBlaster",
+            "id": 403
+        },
+        {
+            "name": "commendation4",
+            "id": 405
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_DarkChannel2",
+            "id": 432
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_AnnihilationSphere",
+            "id": 433
+        },
+        {
+            "name": "victory5",
+            "id": 471
+        },
+        {
+            "name": "commendation5",
+            "id": 472
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_Throw_N7",
+            "id": 473
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_EMPGrenade2",
+            "id": 474
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_HomingGrenade",
+            "id": 475
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomActionMP_ElectricSlash",
+            "id": 476
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP3.SFXPowerCustomAction_MultiFragGrenade",
+            "id": 477
+        },
+        {
+            "name": "victory7",
+            "id": 478
+        },
+        {
+            "name": "commendation7",
+            "id": 479
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_ShieldBoost",
+            "id": 482
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_BioticOrbs",
+            "id": 483
+        },
+        {
+            "name": "victory8",
+            "id": 491
+        },
+        {
+            "name": "commendation8",
+            "id": 492
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_ReconMine",
+            "id": 493
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_VolusPassive",
+            "id": 494
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_VolusMeleePassive",
+            "id": 495
+        },
+        {
+            "name": "collectible9",
+            "id": 496
+        },
+        {
+            "name": "collectible10",
+            "id": 497
+        },
+        {
+            "name": "predatorpack",
+            "id": 498
+        },
+        {
+            "name": "avengerpack2",
+            "id": 499
+        },
+        {
+            "name": "mp3press",
+            "id": 502
+        },
+        {
+            "name": "commendation9",
+            "id": 531
+        },
+        {
+            "name": "victory10",
+            "id": 534
+        },
+        {
+            "name": "commendation10",
+            "id": 535
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_Supercharge_Shared",
+            "id": 541
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_GethPassive_Shared",
+            "id": 542
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_GethMeleePassive_Shared",
+            "id": 543
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_Damping_Shared",
+            "id": 544
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_Barrier_Shared",
+            "id": 545
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_Lash_Shared",
+            "id": 546
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_MaleQuarianPassive_Shared",
+            "id": 547
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_MaleQuarianMeleePassive_Shared",
+            "id": 548
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_BatarianPassive_Shared",
+            "id": 549
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_BatarianMeleePassive_Shared",
+            "id": 550
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_HomingGrenade_Shared",
+            "id": 551
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_BloodLust_Shared",
+            "id": 552
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_BatarianNet_Shared",
+            "id": 553
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_VorchaPassive_Shared",
+            "id": 554
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_VorchaMeleePassive_Shared",
+            "id": 555
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_AnnihilationSphere_Shared",
+            "id": 556
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_BatarianArmor_Shared",
+            "id": 557
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_DarkChannel2_Shared",
+            "id": 558
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_Flamer_Shared",
+            "id": 559
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_StimPack",
+            "id": 560
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_JetPackCharge",
+            "id": 561
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_TurianCloak",
+            "id": 562
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_N7TurianMeleePassive",
+            "id": 563
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_N7TurianPassive",
+            "id": 564
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_AsariPassive_Infiltrator",
+            "id": 565
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_AsariPassive_Sentinel",
+            "id": 566
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_Decoy_Volus",
+            "id": 567
+        },
+        {
+            "name": "victory11",
+            "id": 568
+        },
+        {
+            "name": "commendation11",
+            "id": 569
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP4.SFXPowerCustomActionMP_AsariCloak",
+            "id": 570
+        },
+        {
+            "name": "victory12",
+            "id": 571
+        },
+        {
+            "name": "commendation12",
+            "id": 572
+        },
+        {
+            "name": "customer2",
+            "id": 573
+        },
+        {
+            "name": "customer3",
+            "id": 574
+        },
+        {
+            "name": "collectible11",
+            "id": 575
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_SiegePulse",
+            "id": 578
+        },
+        {
+            "name": "service1",
+            "id": 579
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_GethDestroyerPassive",
+            "id": 580
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_GethDestroyerMeleePassive",
+            "id": 581
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_HexShield",
+            "id": 582
+        },
+        {
+            "name": "victory13",
+            "id": 585
+        },
+        {
+            "name": "commendation13",
+            "id": 586
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_MercBowModalTwo",
+            "id": 587
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_MercPassive",
+            "id": 588
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_MercMeleePassive",
+            "id": 589
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_MercBowModalBase",
+            "id": 590
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_MercBowModalOne",
+            "id": 591
+        },
+        {
+            "name": "victory14",
+            "id": 593
+        },
+        {
+            "name": "commendation14",
+            "id": 594
+        },
+        {
+            "name": "mp4press",
+            "id": 595
+        },
+        {
+            "name": "victory15",
+            "id": 596
+        },
+        {
+            "name": "commendation15",
+            "id": 597
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_CainMine",
+            "id": 598
+        },
+        {
+            "name": "SFXGameContentDLC_Shared.SFXPowerCustomActionMP_GethSentryTurret_Shared",
+            "id": 607
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_HammerSmash",
+            "id": 608
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_BioticHammerModal",
+            "id": 609
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_TechHammerModal",
+            "id": 610
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_WarlordMeleePassive",
+            "id": 611
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_LineStrike",
+            "id": 620
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_VenomTippedBlades",
+            "id": 621
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_BioticFocus",
+            "id": 622
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_RepairMatrix",
+            "id": 630
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_FembotCloak",
+            "id": 631
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_FembotPassive",
+            "id": 632
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_FembotMeleePassive",
+            "id": 633
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_TechArmor_Warlord",
+            "id": 635
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_WarlordPassive",
+            "id": 636
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomAction_DarkSingularity",
+            "id": 637
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_SeekerSwarm",
+            "id": 638
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_DarkChannelProthean",
+            "id": 639
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_CollectorPassive",
+            "id": 640
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_ProtheanMeleePassive",
+            "id": 641
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_FemTurianPassive",
+            "id": 643
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_FemTurianMeleePassive",
+            "id": 644
+        },
+        {
+            "name": "collectible12",
+            "id": 645
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_SnapFreeze",
+            "id": 646
+        },
+        {
+            "name": "collectible14",
+            "id": 647
+        },
+        {
+            "name": "collectible15",
+            "id": 648
+        },
+        {
+            "name": "collectible16",
+            "id": 649
+        },
+        {
+            "name": "collectible17",
+            "id": 650
+        },
+        {
+            "name": "collectible18",
+            "id": 651
+        },
+        {
+            "name": "collectible19",
+            "id": 652
+        },
+        {
+            "name": "SFXGameContentDLC_CON_MP5.SFXPowerCustomActionMP_GethSentryTurret_MP5",
+            "id": 659
+        },
+        {
+            "name": "conmp5dlctest",
+            "id": 663
+        },
+        {
+            "name": "collectible20",
+            "id": 670
+        },
+        {
+            "name": "starter",
+            "id": 232
+        },
+        {
+            "name": "weekly2",
+            "id": 600
+        },
+        {
+            "name": "weekly3",
+            "id": 601
+        },
+        {
+            "name": "weekly4",
+            "id": 605
+        },
+        {
+            "name": "weekly5",
+            "id": 606
+        },
+        {
+            "name": "weekly1",
+            "id": 599
+        },
+        {
+            "name": "weekly6",
+            "id": 612
+        },
+        {
+            "name": "victory16",
+            "id": 613
+        },
+        {
+            "name": "weekly7",
+            "id": 614
+        },
+        {
+            "name": "weekly8",
+            "id": 615
+        },
+        {
+            "name": "weekly9",
+            "id": 616
+        },
+        {
+            "name": "weekly10",
+            "id": 617
+        },
+        {
+            "name": "weekly11",
+            "id": 618
+        },
+        {
+            "name": "weekly12",
+            "id": 658
+        },
+        {
+            "name": "weekly13",
+            "id": 660
+        },
+        {
+            "name": "weekly14",
+            "id": 661
+        },
+        {
+            "name": "weekly15",
+            "id": 662
+        },
+        {
+            "name": "weekly16",
+            "id": 664
+        },
+        {
+            "name": "weekly17",
+            "id": 666
+        },
+        {
+            "name": "FreeLodestar",
+            "id": 667
+        },
+        {
+            "name": "Lodestar1",
+            "id": 668
+        },
+        {
+            "name": "Lodestar2",
+            "id": 669
+        },
+        {
+            "name": "FreeReckoning",
+            "id": 665
+        },
+        {
+            "name": "prophecy",
+            "id": 634
+        },
+        {
+            "name": "ach_me1_medalofhonor",
+            "id": 702
+        },
+        {
+            "name": "ach_me1_medalofhonor_unlock",
+            "id": 709
+        },
+        {
+            "name": "ach_me1_colonialsurvival",
+            "id": 703
+        },
+        {
+            "name": "ach_me1_colonialsurvival_unlock",
+            "id": 710
+        },
+        {
+            "name": "ach_me2_missionaccomplished",
+            "id": 704
+        },
+        {
+            "name": "ach_me2_missionaccomplished_unlock",
+            "id": 711
+        },
+        {
+            "name": "ach_me2_merciless",
+            "id": 705
+        },
+        {
+            "name": "ach_me2_merciless_unlock",
+            "id": 712
+        },
+        {
+            "name": "ach_me3_missionaccomplished",
+            "id": 706
+        },
+        {
+            "name": "ach_me3_missionaccomplished_unlock",
+            "id": 713
+        },
+        {
+            "name": "ach_me3_theoneandonly",
+            "id": 707
+        },
+        {
+            "name": "ach_me3_theoneandonly_unlock",
+            "id": 714
+        },
+        {
+            "name": "ach_insanityiii",
+            "id": 708
+        },
+        {
+            "name": "ach_insanityiii_unlock",
+            "id": 715
+        },
+        {
+            "name": "legendarybanner",
+            "id": 743
+        },
+        {
+            "name": "savemasseffect",
+            "id": 753
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "n7savelab"
+version = "0.0.1"
+description = "Learning starter for an offline LMP/LEMP save editor"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Community project"}]
+license = {text = "License TBD by project author"}
+dependencies = []
+
+[project.scripts]
+n7savelab = "n7savelab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

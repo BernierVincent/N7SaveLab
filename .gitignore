@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+build/
+dist/
+*.spec
+
+# Personal/profile data -- NEVER commit
+MP_Profile
+MP_Profile.*
+LEMP_mpsave.txt
+*.backup-*
+*.edited
+*.sav
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated save data and debugging
+backup/
+backups/
+debug_profiles/
+comparisons/
+
+# Extracted game assets and localization
+research/totlk/
+research/totlk_flat/
+research/tlk/
+
+# Research exports
+research/*.tlk
