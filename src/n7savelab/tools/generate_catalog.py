@@ -2,7 +2,7 @@ import re
 import xml.etree.ElementTree as ET
 import json
 from pathlib import Path
-
+from collections import defaultdict
 
 
 CATEGORY_MAP = {
@@ -39,6 +39,32 @@ CLASSES = (
     "Infiltrator",
     "Vanguard",
 )
+
+
+DEFAULT_MAX_COUNTS = {
+    "AdeptHumanMale": 5,
+    "AdeptHumanFemale": 5,
+    "SoldierHumanMale": 5,
+    "SoldierHumanFemale": 5,
+    "EngineerHumanMale": 5,
+    "EngineerHumanFemale": 5,
+    "SentinelHumanMale": 5,
+    "SentinelHumanFemale": 5,
+    "InfiltratorHumanMale": 5,
+    "InfiltratorHumanFemale": 5,
+    "VanguardHumanMale": 5,
+    "VanguardHumanFemale": 5,
+}
+
+
+NAME_OVERRIDES = {
+    "AdeptHumanMaleCerberus": "Phoenix Adept",
+    "VanguardHumanMaleCerberus": "Phoenix Vanguard",
+    "EngineerQuarian": "Quarian Engineer (Female)",
+    "EngineerQuarianMale": "Quarian Engineer (Male)",
+    "InfiltratorQuarian": "Quarian Infiltrator (Female)",
+    "InfiltratorQuarianMale": "Quarian Infiltrator (Male)",
+}
 
 def clean_display_name(name: str | None) -> str | None:
     if not name:
@@ -97,9 +123,21 @@ def load_tlk_strings(tlk_dir: Path) -> dict[int, str]:
 
     return translations
 
+def detect_duplicate_names(catalog):
+    names = defaultdict(list)
+
+    for unique_name, item in catalog.items():
+        if item.get("kind") == "unit" and item.get("name"):
+            names[item["name"]].append(unique_name)
+
+    for name, identifiers in sorted(names.items()):
+        if len(identifiers) > 1:
+            print(f"{name}: {', '.join(identifiers)}")
+
+
 
 def main():
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     research_dir = project_root / "research"
     tlk_dir = research_dir / "tlk"
     translations = load_tlk_strings(tlk_dir)
@@ -180,7 +218,7 @@ def main():
             "type": item_type,
             "class": unit_class,
             "weapon_type": weapon_type,
-            "gui_type": gui_type,
+            "gui_type": gui_type.lower() if gui_type else None,
             "category": category,
             "rarity": rarity,
             "max_count": int(max_count) if max_count else None,
@@ -196,6 +234,14 @@ def main():
         for entry in mappings.values()
         if entry["id"] not in matched_ids
     ]
+
+    for unique_name, item in catalog.items():
+        if unique_name in NAME_OVERRIDES:
+            item["display_name"] = NAME_OVERRIDES[unique_name]
+
+    for unique_name, item in catalog.items():
+        if item.get("max_count") is None:
+            item["max_count"] = DEFAULT_MAX_COUNTS.get(unique_name)
 
     # 4. Export
     result = {
@@ -213,10 +259,10 @@ def main():
     print(f"Unmatched mappings: {len(unmatched)}")
     print(f"\nExported to: {output_path}")
 
-    # Sanity checks
-    for name in ("InfiltratorAsari", "SoldierHumanMale"):
-        print(f"\n{name}:")
-        print(json.dumps(catalog.get(name), indent=4))
+
+
+
+
 
 
 if __name__ == "__main__":

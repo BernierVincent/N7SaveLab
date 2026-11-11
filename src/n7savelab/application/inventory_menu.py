@@ -54,7 +54,7 @@ def categorize_items(catalog: dict) -> dict:
 
 
 def load_catalog() -> dict:
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     catalog_path = project_root / "research" / "inventory_catalog.json"
 
     with catalog_path.open("r", encoding="utf-8") as file:

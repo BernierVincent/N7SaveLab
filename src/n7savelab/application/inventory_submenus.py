@@ -29,7 +29,6 @@ def units_menu(profile, units):
             item for item in units
             if item["class"] == chosen_class
             and item.get("inventory_ids", {}).get("base") is not None
-            and inventory[item["inventory_ids"]["base"]] == 0
         ]
 
         if not characters:
@@ -39,7 +38,7 @@ def units_menu(profile, units):
 
 
         selected_char = select_from_menu("Select a character to Unlock"
-                                         ,[item["name"] for item in characters]
+                                         ,[format_item(item, inventory) for item in characters]
         )
 
         if selected_char is None:
@@ -49,7 +48,7 @@ def units_menu(profile, units):
         char_id = character["inventory_ids"]["base"]
 
         profile = editor.set_inventory_item(profile,char_id,1)
-        return profile
+        return profile , True
 
 
 #Submenu for weapons (DUH!)
@@ -74,7 +73,6 @@ def weapons_menu(profile, weapons):
          item for item in weapons
          if item["gui_type"] == chosen_type
          and item.get("inventory_ids", {}).get("base") is not None
-         and inventory[item["inventory_ids"]["base"]] == 0
     ]
 
     if not guns:
@@ -106,3 +104,18 @@ def equipment_menu(profile, selected_items):
 def consumables_menu(profile, selected_items):
     ...
 
+def format_item(item, inventory):
+        item_id = item["inventory_ids"]["base"]
+        current = inventory[item_id]
+        max_count = item.get("max_count")
+        name = item.get("display_name") or item["name"]
+        if current == 0:
+             status = "Locked"
+        elif max_count is not None and current >= max_count:
+             status = f"Max ({current}/{max_count})"
+        elif max_count is not None:
+             status = f"{current}/{max_count}"
+        else:
+             status = f"Owned ({current})"
+
+        return f"{name} [{status}]"
