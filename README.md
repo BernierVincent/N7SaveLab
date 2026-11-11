@@ -86,4 +86,4 @@ A graphical interface, LEMP-to-LMP conversion, and broader profile editing are *
 
 ## Disclaimer
 
-This is an independent community project, not affiliated with BioWare, Electronic Arts, or the developers of LMP/Project Milan. Save-format findings are based on community reverse engineering, not an official specification. Use the editor at your own risk and respect the applicable game and mod rules.
+This is an independent project, not affiliated with BioWare, Electronic Arts, or the developers of LMP/Project Milan. Save-format findings are based on community reverse engineering, not an official specification. Use the editor at your own risk and respect the applicable game and mod rules.
