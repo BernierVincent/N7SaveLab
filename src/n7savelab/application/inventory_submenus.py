@@ -27,41 +27,6 @@ def units_menu(profile, units):
 #Prints out all the weapon types to select from
 #if a class has no unlockable gun it returns to the preceding menu.
 
-# def weapons_menu(profile, weapons):
-#     types = sorted({
-#          item["gui_type"]
-#          for item in weapons
-#          if item.get("gui_type")
-#     })
-#     inventory = editor.get_inventory(profile)
-#     selected = select_from_menu("Select a weapon type", types)
-
-#     if selected is None:
-#          return profile, False
-
-#     chosen_type = types[selected]
-
-#     guns = [
-#          item for item in weapons
-#          if item["gui_type"] == chosen_type
-#          and item.get("inventory_ids", {}).get("base") is not None
-#     ]
-
-#     if not guns:
-#         print("No locked weapon in this type.")
-#         input("Press Enter to continue...")
-#         return profile, False
-
-#     selected_gun = select_from_menu("Select a weapon to Unlock",
-#                                     [item["name"] for item in guns])
-
-#     if selected_gun is None:
-#          return profile, False
-
-#     gun = guns[selected_gun]
-#     gun_id = gun["inventory_ids"]["base"]
-#     profile = editor.set_inventory_item(profile,gun_id,1)
-#     return profile
 
 def weapons_menu(profile, weapons):
      return grouped_item_menu(profile,
