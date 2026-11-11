@@ -117,6 +117,7 @@ def main():
                 if changed:
                     status = ProfileStatus.MODIFIED_UNSAVED
                     history.append("Inventory modified")
+                    
             case "5":
                 if profile is None:
                     history.append("No profile loaded")

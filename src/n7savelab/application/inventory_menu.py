@@ -64,10 +64,7 @@ def load_catalog() -> dict:
 def inventory_menu(profile):
     changed = False
     catalog = load_catalog()
-    inventory = editor.get_inventory(profile)
     categories = categorize_items(catalog)
-
-    changed = False
 
     while True:
         keys = list(categories.keys())
@@ -99,3 +96,4 @@ def inventory_menu(profile):
 
             case "consumables":
                 profile, modified = consumables_menu(profile, selected_items)
+        changed = changed or modified
