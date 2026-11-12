@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+import sys
 
 from n7savelab.application.utils import select_from_menu
 
@@ -54,8 +55,11 @@ def categorize_items(catalog: dict) -> dict:
 
 
 def load_catalog() -> dict:
-    project_root = Path(__file__).resolve().parents[3]
-    catalog_path = project_root / "research" / "inventory_catalog.json"
+
+    if getattr(sys, "frozen", False):
+        catalog_path = Path(sys._MEIPASS) / "research" / "inventory_catalog.json"
+    else:
+        catalog_path = Path(__file__).resolve().parents[3] / "research" / "inventory_catalog.json"
 
     with catalog_path.open("r", encoding="utf-8") as file:
         return json.load(file)["items"]
@@ -69,8 +73,10 @@ def inventory_menu(profile,history,status):
         keys = list(categories.keys())
 
         selected = select_from_menu(
-            "Inventory Management",
-            [key.capitalize() for key in keys]
+                                    "Inventory Management",
+                                    [key.capitalize() for key in keys],
+                                    status=status,
+                                    history=history
         )
 
         if selected is None:

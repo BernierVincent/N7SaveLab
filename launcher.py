@@ -1,4 +1,4 @@
-from n7savelab.cli import main
+from n7savelab.application.menu import main_menu
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main_menu()

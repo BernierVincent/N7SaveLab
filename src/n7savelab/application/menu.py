@@ -109,6 +109,8 @@ def handle_saving(profile,filepath,history,status):
     except (OSError, ValueError) as e:
         history.append(f"Save failed: {e}")
 
+    return profile,status
+
 def handle_exit(status):
     if status != ProfileStatus.MODIFIED_UNSAVED:
         return True
@@ -166,7 +168,7 @@ def main_menu():
                 )
             case 4:
                 profile,status = handle_saving(
-                    profile,history,status
+                    profile,filepath,history,status
                 )
 
 if __name__ == "__main__":

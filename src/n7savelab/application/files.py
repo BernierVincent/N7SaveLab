@@ -84,6 +84,7 @@ def select_profile():
 
 
 def backup_profile(filepath: Path) -> Path:
+    
     backup_dir = None
     if getattr(sys, "frozen", False):
         backup_dir = Path(sys.executable).resolve().parent / "backup"

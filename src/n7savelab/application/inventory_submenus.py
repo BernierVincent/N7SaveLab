@@ -15,13 +15,14 @@ TIERS = ["I", "II", "III", "IV"]
 
 def units_menu(profile, units, status, history):
     return grouped_item_menu(
-        profile,
-        units,
-        "class",
-        "Select a Class",
-        "Select a Character",
-        modify_rank,
-        status
+                             profile,
+                             units,
+                             "class",
+                             "Select a Class",
+                             "Select a Character",
+                             modify_rank,
+                             status,
+                             history
     )
 
 #Submenu for weapons (DUH!)
@@ -30,13 +31,15 @@ def units_menu(profile, units, status, history):
 
 
 def weapons_menu(profile, weapons,status, history):
-     return grouped_item_menu(profile,
+     return grouped_item_menu(
+                              profile,
                               weapons,
                               "gui_type",
                               "Select a weapon type",
                               "Select a weapon",
                               modify_rank,
-                              status
+                              status,
+                              history
                               )
 
 #Submenu for weapon mods(DUH!)
@@ -44,13 +47,15 @@ def weapons_menu(profile, weapons,status, history):
 #if a class has no unlockable mod left it returns to the preceding menu.
 
 def mods_menu(profile, mods, status, history):
-    return grouped_item_menu(profile,
-                             mods,
-                             "weapon_type",
-                             "Select a weapon type",
-                             "Select a mod",
+    return grouped_item_menu(
+                              profile,
+                              mods,
+                              "weapon_type",
+                              "Select a weapon type",
+                              "Select a mod",
                               modify_rank,
-                              status
+                              status,
+                              history
                              )
 
 def equipment_menu(profile, equipment, status, history):
@@ -69,23 +74,27 @@ def equipment_menu(profile, equipment, status, history):
 
         item["alphabetical_group"] = group
 
-    return grouped_item_menu(profile,
+    return grouped_item_menu(
+                             profile,
                              equipment,
                              "alphabetical_group",
                              "Select Equipment Group",
                              "Select Equipment",
                              modify_rank,
-                             status
+                             status,
+                             history
                             )
 
 def consumables_menu(profile, consumables, status, history):
-    return grouped_item_menu(profile,
+    return grouped_item_menu(
+                             profile,
                              consumables,
                              "gui_type",
                              "Select consumable type",
                              "Select consumable",
                              modify_consumable,
-                             status
+                             status,
+                             history
                             )
     ...
 
@@ -137,7 +146,12 @@ def grouped_item_menu(
             if item.get(group_key)
         })
 
-    selected = select_from_menu(group_prompt, groups)
+    selected = select_from_menu(
+                                group_prompt,
+                                groups,
+                                history=history,
+                                status=status
+                                )
 
     if selected is None:
         return profile, status
@@ -156,7 +170,9 @@ def grouped_item_menu(
 
     selected_member = select_from_menu(
         item_prompt,
-        [format_item(item, inventory) for item in members]
+        [format_item(item, inventory) for item in members],
+        status=status,
+        history=history
     )
 
     if selected_member is None:
@@ -209,7 +225,12 @@ def modify_consumable(profile, item, status, history):
             for key in tier_keys
         ]
 
-        selected = select_from_menu("Select Tier", tier_labels)
+        selected = select_from_menu(
+                                    "Select Tier",
+                                    tier_labels,
+                                    history=history,
+                                    status=status
+                                    )
         
         if selected is None:
             return profile, status
