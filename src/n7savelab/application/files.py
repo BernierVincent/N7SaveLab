@@ -2,6 +2,7 @@
 from __future__ import annotations
 import os
 from pathlib import Path
+import sys
 import tempfile
 from typing import TypeAlias
 from n7savelab.application.formats.lmp import LmpProfile, read_lmp
@@ -83,7 +84,12 @@ def select_profile():
 
 
 def backup_profile(filepath: Path) -> Path:
-    backup_dir = Path("./backup")
+    backup_dir = None
+    if getattr(sys, "frozen", False):
+        backup_dir = Path(sys.executable).resolve().parent / "backup"
+    else:
+        backup_dir = Path.cwd() / "backup"
+
     backup_dir.mkdir(parents=True, exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
