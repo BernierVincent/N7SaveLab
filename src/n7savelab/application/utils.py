@@ -10,7 +10,7 @@ def select_number(msg) -> int:
         except ValueError:
             print("Inputted value must be a number")
 
-def select_from_menu(title: str, options: list[str]) -> int | None:
+def select_from_menu(title: str, options: list[str],history=None,status_text=None,back_label="Back") -> int | None:
     while True:
         print(f"\n=== {title} ===")
 

@@ -1,4 +1,5 @@
 from n7savelab.application import editor
+from n7savelab.application.profile_status import ProfileStatus
 from n7savelab.application.utils import select_from_menu, select_number
 
 
@@ -13,14 +14,15 @@ TIERS = ["I", "II", "III", "IV"]
 #if a class has no unlockable unit it returns to the preceding menu.
 
 
-def units_menu(profile, units):
+def units_menu(profile, units, status):
     return grouped_item_menu(
         profile,
         units,
         "class",
         "Select a Class",
         "Select a Character",
-        modify_rank
+        modify_rank,
+        status
     )
 
 #Submenu for weapons (DUH!)
@@ -28,29 +30,31 @@ def units_menu(profile, units):
 #if a class has no unlockable gun it returns to the preceding menu.
 
 
-def weapons_menu(profile, weapons):
+def weapons_menu(profile, weapons,status):
      return grouped_item_menu(profile,
                               weapons,
                               "gui_type",
                               "Select a weapon type",
                               "Select a weapon",
-                              modify_rank
+                              modify_rank,
+                              status
                               )
 
 #Submenu for weapon mods(DUH!)
 #Prints out all the weapon types to select from
 #if a class has no unlockable mod left it returns to the preceding menu.
 
-def mods_menu(profile, mods):
+def mods_menu(profile, mods, status):
     return grouped_item_menu(profile,
                              mods,
                              "weapon_type",
                              "Select a weapon type",
                              "Select a mod",
                               modify_rank,
+                              status
                              )
 
-def equipment_menu(profile, equipment):
+def equipment_menu(profile, equipment, status):
     for item in equipment:
         name = item.get("display_name") or item["name"]
         first_letter = name[0].upper()
@@ -71,23 +75,22 @@ def equipment_menu(profile, equipment):
                              "alphabetical_group",
                              "Select Equipment Group",
                              "Select Equipment",
-                             modify_rank
+                             modify_rank,
+                             status
                             )
 
-def consumables_menu(profile, consumables):
+def consumables_menu(profile, consumables,status):
     return grouped_item_menu(profile,
                              consumables,
                              "gui_type",
                              "Select consumable type",
                              "Select consumable",
-                             modify_consumable
+                             modify_consumable,
+                             status
                             )
     ...
 
 def format_item(item, inventory,tier_key=None):
-        item_id = get_base_inventory_id(item)
-        current = inventory[item_id]
-        max_count = item.get("max_count")
         name = item.get("display_name") or item["name"]
         type = item["type"]
 
@@ -99,6 +102,10 @@ def format_item(item, inventory,tier_key=None):
             item_id = item["inventory_ids"][tier_key]
             quantity = inventory[item_id]
             return f"{name} {TIERS[int(tier_key)]} [{quantity}]"
+
+        item_id = get_base_inventory_id(item)
+        current = inventory[item_id]
+        max_count = item.get("max_count")
 
 
         if current == 0 and type != "consumable":
@@ -118,7 +125,8 @@ def grouped_item_menu(
     group_key,
     group_prompt,
     item_prompt,
-    action
+    action,
+    status
 
 ):
     inventory = editor.get_inventory(profile)
@@ -132,7 +140,7 @@ def grouped_item_menu(
     selected = select_from_menu(group_prompt, groups)
 
     if selected is None:
-        return profile, False
+        return profile, status
 
     chosen_group = groups[selected]
 
@@ -152,40 +160,40 @@ def grouped_item_menu(
     )
 
     if selected_member is None:
-        return profile, False
+        return profile, status
 
-    return action(profile, members[selected_member])
+    return action(profile, members[selected_member], status)
 
-def modify_rank(profile, item):
+def modify_rank(profile, item, status):
     max_count = item.get("max_count")
     item_id = get_base_inventory_id(item)
     name = item.get("display_name") or item["name"]
 
     if max_count is None:
         print("Maximum rank is unknown.")
-        return profile, False
+        return profile, status
 
     ranks = [f"Rank {rank}" for rank in range(1, max_count + 1)]
 
     selected = select_from_menu(f"Select new rank for : {name}",ranks)
 
     if selected is None:
-        return profile, False
+        return profile, status
 
     new_rank = selected + 1
 
     if editor.get_inventory(profile)[item_id] == new_rank:
-        return profile, False
+        return profile, status
 
     profile = editor.set_inventory_item(profile,item_id,new_rank)
-    return profile, True
+    return profile, ProfileStatus.MODIFIED_UNSAVED
 
 
 def get_base_inventory_id(item):
     ids = item.get("inventory_ids", {})
     return ids.get("base", ids.get("0"))
 
-def modify_consumable(profile, item):
+def modify_consumable(profile, item, status):
     item_indices = item["inventory_ids"]
     inventory = editor.get_inventory(profile)
     if (len(item_indices) > 1):
@@ -198,18 +206,18 @@ def modify_consumable(profile, item):
         selected = select_from_menu("Select Tier", tier_labels)
         
         if selected is None:
-            return profile, False
+            return profile, status
 
         item_id = item_indices[tier_keys[selected]]
-
-    item_id = item["inventory_ids"]["base"]
+    else:
+        item_id = get_base_inventory_id(item)
 
     amount = select_number("Enter an amount to add :")
 
-    if (amount is None):
-        return profile , False
+    if (amount is None or amount == 0):
+        return profile , status
 
     profile = editor.add_inventory_item_quantity(profile,item_id,amount)
 
-    return profile, True
+    return profile, ProfileStatus.MODIFIED_UNSAVED
 

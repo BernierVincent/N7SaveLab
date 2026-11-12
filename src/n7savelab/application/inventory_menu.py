@@ -61,7 +61,7 @@ def load_catalog() -> dict:
         return json.load(file)["items"]
 
 
-def inventory_menu(profile):
+def inventory_menu(profile,status):
     changed = False
     catalog = load_catalog()
     categories = categorize_items(catalog)
