@@ -67,9 +67,23 @@ def set_inventory_item(profile: Document,item_id: int, amount: int) -> Document:
     inventory_hex = fields[10]
     inventory = bytearray.fromhex(inventory_hex)
 
-    # Test Juggernaut Shields II
     inventory[item_id] = amount
 
+    fields[10] = inventory.hex()
+    base_record.value = ";".join(fields)
+    return updated
+
+def add_inventory_item_quantity(profile : Document,item_id :int,amount: int) -> Document:
+
+    updated = deepcopy(profile)
+    base_record = updated.record(0)
+    fields = base_record.value.split(";")
+
+    inventory_hex = fields[10]
+    inventory = bytearray.fromhex(inventory_hex)
+
+    inventory[item_id] += amount
+    
     fields[10] = inventory.hex()
     base_record.value = ";".join(fields)
     return updated

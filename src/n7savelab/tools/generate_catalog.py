@@ -58,12 +58,25 @@ DEFAULT_MAX_COUNTS = {
 
 
 NAME_OVERRIDES = {
+
     "AdeptHumanMaleCerberus": "Phoenix Adept",
     "VanguardHumanMaleCerberus": "Phoenix Vanguard",
     "EngineerQuarian": "Quarian Engineer (Female)",
     "EngineerQuarianMale": "Quarian Engineer (Male)",
     "InfiltratorQuarian": "Quarian Infiltrator (Female)",
     "InfiltratorQuarianMale": "Quarian Infiltrator (Male)",
+
+
+    "MPCapacity_Ammo": "Thermal Clip Pack Capacity +",
+    "MPCapacity_Rocket": "Heavy Weapon Ammo Capacity +",
+
+    "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Revive": "Medi-Gel",
+    "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Shield": "Ops Survival Pack",
+}
+
+SPECIAL_GUI_TYPES = {
+    "capacity": ("gear", "equipment"),
+    "consumable": ("gear", "consumable"),
 }
 
 def clean_display_name(name: str | None) -> str | None:
@@ -235,13 +248,23 @@ def main():
         if entry["id"] not in matched_ids
     ]
 
+    # Manual exception handling,
     for unique_name, item in catalog.items():
+
         if unique_name in NAME_OVERRIDES:
             item["display_name"] = NAME_OVERRIDES[unique_name]
 
-    for unique_name, item in catalog.items():
         if item.get("max_count") is None:
             item["max_count"] = DEFAULT_MAX_COUNTS.get(unique_name)
+
+        gui_type = item.get("gui_type")
+
+        if gui_type in SPECIAL_GUI_TYPES:
+            item["kind"], item["type"] = SPECIAL_GUI_TYPES[gui_type]
+
+
+
+
 
     # 4. Export
     result = {

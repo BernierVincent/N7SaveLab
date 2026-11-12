@@ -6,7 +6,7 @@ from n7savelab.application.utils import select_from_menu, select_number
 ###For now only allows the unlocking of items
 ###Consumables are another story idk what to do with em yet
 
-
+TIERS = ["I", "II", "III", "IV"]
 
 #Submenu for units (DUH!)
 #Prints out all the classes to select from
@@ -66,24 +66,43 @@ def equipment_menu(profile, equipment):
 
         item["alphabetical_group"] = group
 
-    return grouped_item_menu(
-        profile,
-        equipment,
-        "alphabetical_group",
-        "Select Equipment Group",
-        "Select Equipment",
-        modify_rank
-    )
+    return grouped_item_menu(profile,
+                             equipment,
+                             "alphabetical_group",
+                             "Select Equipment Group",
+                             "Select Equipment",
+                             modify_rank
+                            )
 
-def consumables_menu(profile, selected_items):
+def consumables_menu(profile, consumables):
+    return grouped_item_menu(profile,
+                             consumables,
+                             "gui_type",
+                             "Select consumable type",
+                             "Select consumable",
+                             modify_consumable
+                            )
     ...
 
-def format_item(item, inventory):
+def format_item(item, inventory,tier_key=None):
         item_id = get_base_inventory_id(item)
         current = inventory[item_id]
         max_count = item.get("max_count")
         name = item.get("display_name") or item["name"]
-        if current == 0:
+        type = item["type"]
+
+
+        if type == "consumable" and len(item["inventory_ids"]) > 1:
+            if tier_key is None:
+                return name
+
+            item_id = item["inventory_ids"][tier_key]
+            quantity = inventory[item_id]
+            return f"{name} {TIERS[int(tier_key)]} [{quantity}]"
+
+        
+
+        if current == 0 and type != "consumable":
              status = "Locked"
         elif max_count is not None and current >= max_count:
              status = f"Max ({current}/{max_count})"
@@ -162,10 +181,37 @@ def modify_rank(profile, item):
     profile = editor.set_inventory_item(profile,item_id,new_rank)
     return profile, True
 
-def modify_quantity(profile,item):
-     item_indices = item["inventory_ids"]
 
 def get_base_inventory_id(item):
     ids = item.get("inventory_ids", {})
     return ids.get("base", ids.get("0"))
+
+
+def modify_consumable(profile, item):
+    item_indices = item["inventory_ids"]
+    inventory = editor.get_inventory(profile)
+    if (len(item_indices) > 1):
+        tier_keys = sorted(item_indices.keys(), key=int)
+        tier_labels = [
+            format_item(item, inventory, key)
+            for key in tier_keys
+        ]
+
+        selected = select_from_menu("Select Tier", tier_labels)
+        
+        if selected is None:
+            return profile, False
+
+        item_id = item_indices[tier_keys[selected]]
+
+    item_id = item["inventory_ids"]["base"]
+
+    amount = select_number("Enter an amount to add :")
+
+    if (amount is None):
+        return profile , False
+
+    profile = editor.add_inventory_item_quantity(profile,item_id,amount)
+
+    return profile, True
 

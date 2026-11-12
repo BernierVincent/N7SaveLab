@@ -3527,8 +3527,8 @@
         },
         "MPCapacity_Ammo": {
             "name": "Thermal Clip Capacity +",
-            "kind": null,
-            "type": null,
+            "kind": "gear",
+            "type": "equipment",
             "class": null,
             "weapon_type": null,
             "gui_type": "capacity",
@@ -3538,12 +3538,13 @@
             "gui_name_id": 723382,
             "inventory_ids": {
                 "base": 242
-            }
+            },
+            "display_name": "Thermal Clip Pack Capacity +"
         },
         "MPCapacity_Revive": {
             "name": "Medi-Gel Capacity +",
-            "kind": null,
-            "type": null,
+            "kind": "gear",
+            "type": "equipment",
             "class": null,
             "weapon_type": null,
             "gui_type": "capacity",
@@ -3557,8 +3558,8 @@
         },
         "MPCapacity_Rocket": {
             "name": null,
-            "kind": null,
-            "type": null,
+            "kind": "gear",
+            "type": "equipment",
             "class": null,
             "weapon_type": null,
             "gui_type": "capacity",
@@ -3568,12 +3569,13 @@
             "gui_name_id": 134217771,
             "inventory_ids": {
                 "base": 244
-            }
+            },
+            "display_name": "Heavy Weapon Ammo Capacity +"
         },
         "MPCapacity_Shield": {
             "name": "Ops Survival Pack Capacity +",
-            "kind": null,
-            "type": null,
+            "kind": "gear",
+            "type": "equipment",
             "class": null,
             "weapon_type": null,
             "gui_type": "capacity",
@@ -3602,8 +3604,8 @@
         },
         "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Ammo": {
             "name": "Thermal Clip Pack",
-            "kind": null,
-            "type": null,
+            "kind": "gear",
+            "type": "consumable",
             "class": null,
             "weapon_type": null,
             "gui_type": "consumable",
@@ -3617,8 +3619,8 @@
         },
         "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Revive": {
             "name": "Medi-Gel",
-            "kind": null,
-            "type": null,
+            "kind": "gear",
+            "type": "consumable",
             "class": null,
             "weapon_type": null,
             "gui_type": "consumable",
@@ -3628,12 +3630,13 @@
             "gui_name_id": 661168,
             "inventory_ids": {
                 "base": 87
-            }
+            },
+            "display_name": "Medi-Gel"
         },
         "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Rocket": {
             "name": "Heavy Weapon Ammo",
-            "kind": null,
-            "type": null,
+            "kind": "gear",
+            "type": "consumable",
             "class": null,
             "weapon_type": null,
             "gui_type": "consumable",
@@ -3647,8 +3650,8 @@
         },
         "SFXGameMPContent.SFXPowerCustomActionMP_Consumable_Shield": {
             "name": "Ops Survival Pack",
-            "kind": null,
-            "type": null,
+            "kind": "gear",
+            "type": "consumable",
             "class": null,
             "weapon_type": null,
             "gui_type": "consumable",
@@ -3658,7 +3661,8 @@
             "gui_name_id": 661164,
             "inventory_ids": {
                 "base": 89
-            }
+            },
+            "display_name": "Ops Survival Pack"
         },
         "MilanBanner_BarCrawler": {
             "name": null,

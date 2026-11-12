@@ -32,7 +32,7 @@ def categorize_items(catalog: dict) -> dict:
 
     for item in catalog.values():
 
-        if not item.get("name") or not item.get("inventory_ids"):
+        if not (item.get("display_name") or item.get("name")) or not item.get("inventory_ids"):
             continue
 
         if item["kind"] == "unit":
