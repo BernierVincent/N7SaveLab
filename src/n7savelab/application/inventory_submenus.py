@@ -1,6 +1,6 @@
 from n7savelab.application import editor
 from n7savelab.application.profile_status import ProfileStatus
-from n7savelab.application.utils import select_from_menu, select_number
+from n7savelab.application.utils import select_number, select_from_menu
 
 
 ###Submenus for the inventory editor.
@@ -12,7 +12,6 @@ TIERS = ["I", "II", "III", "IV"]
 #Submenu for units (DUH!)
 #Prints out all the classes to select from
 #if a class has no unlockable unit it returns to the preceding menu.
-
 
 def units_menu(profile, units, status):
     return grouped_item_menu(
@@ -92,10 +91,10 @@ def consumables_menu(profile, consumables,status):
 
 def format_item(item, inventory,tier_key=None):
         name = item.get("display_name") or item["name"]
-        type = item["type"]
+        item_type = item["type"]
 
 
-        if type == "consumable" and len(item["inventory_ids"]) > 1:
+        if item_type == "consumable" and len(item["inventory_ids"]) > 1:
             if tier_key is None:
                 return name
 
@@ -108,7 +107,7 @@ def format_item(item, inventory,tier_key=None):
         max_count = item.get("max_count")
 
 
-        if current == 0 and type != "consumable":
+        if current == 0 and item_type != "consumable":
              status = "Locked"
         elif max_count is not None and current >= max_count:
              status = f"Max ({current}/{max_count})"

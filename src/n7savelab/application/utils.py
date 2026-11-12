@@ -10,6 +10,24 @@ def select_number(msg) -> int:
         except ValueError:
             print("Inputted value must be a number")
 
+def should_display_item(item: dict, inventory: bytearray) -> bool:
+    if not item.get("name") or not item.get("inventory_ids"):
+        return False
+
+    if item["type"] == "consumable":
+        return True
+
+    if item["kind"] == "unit" and item["max_count"] is None:
+        return False
+
+    ids = item["inventory_ids"]
+    item_id = ids.get("base", ids.get("0"))
+
+    if item_id is None:
+        return False
+
+    return inventory[item_id] == 0
+
 def select_from_menu(title: str, options: list[str],history=None,status_text=None,back_label="Back") -> int | None:
     while True:
         print(f"\n=== {title} ===")
@@ -31,21 +49,5 @@ def select_from_menu(title: str, options: list[str],history=None,status_text=Non
 
         print("Invalid selection.")
 
-
-def should_display_item(item: dict, inventory: bytearray) -> bool:
-    if not item.get("name") or not item.get("inventory_ids"):
-        return False
-
-    if item["type"] == "consumable":
-        return True
-
-    if item["kind"] == "unit" and item["max_count"] is None:
-        return False
-
-    ids = item["inventory_ids"]
-    item_id = ids.get("base", ids.get("0"))
-
-    if item_id is None:
-        return False
-
-    return inventory[item_id] == 0
+def display_history():
+    ...

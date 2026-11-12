@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-from n7savelab.application import editor
-from n7savelab.application.utils import select_from_menu, should_display_item
+from n7savelab.application.utils import select_from_menu
+
 from .inventory_submenus import (
     units_menu,
     weapons_menu,
@@ -62,7 +62,6 @@ def load_catalog() -> dict:
 
 
 def inventory_menu(profile,status):
-    changed = False
     catalog = load_catalog()
     categories = categorize_items(catalog)
 
@@ -75,7 +74,7 @@ def inventory_menu(profile,status):
         )
 
         if selected is None:
-            return profile, changed
+            return profile, status
 
         category_key = keys[selected]
         selected_items = categories[category_key]
@@ -83,17 +82,16 @@ def inventory_menu(profile,status):
         match category_key:
             case "units":
 
-                profile, modified = units_menu(profile, selected_items)
+                profile, status = units_menu(profile, selected_items,status)
 
             case "weapons":
-                profile, modified = weapons_menu(profile, selected_items)
+                profile, status = weapons_menu(profile, selected_items,status)
 
             case "mods":
-                profile, modified = mods_menu(profile, selected_items)
+                profile, status = mods_menu(profile, selected_items,status)
 
             case "equipment":
-                profile, modified = equipment_menu(profile, selected_items)
+                profile, status = equipment_menu(profile, selected_items,status)
 
             case "consumables":
-                profile, modified = consumables_menu(profile, selected_items)
-        changed = changed or modified
+                profile, status = consumables_menu(profile, selected_items,status)
