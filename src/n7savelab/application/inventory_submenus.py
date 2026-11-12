@@ -17,10 +17,10 @@ def units_menu(profile, units):
     return grouped_item_menu(
         profile,
         units,
+        "class",
+        "Select a Class",
         "Select a Character",
-        modify_rank,
-        group_key="class",
-        group_prompt="Select a Class"
+        modify_rank
     )
 
 #Submenu for weapons (DUH!)
@@ -31,10 +31,10 @@ def units_menu(profile, units):
 def weapons_menu(profile, weapons):
      return grouped_item_menu(profile,
                               weapons,
+                              "gui_type",
+                              "Select a weapon type",
                               "Select a weapon",
-                              modify_rank,
-                              group_key="gui_type",
-                              group_prompt="Select a weapon type"
+                              modify_rank
                               )
 
 #Submenu for weapon mods(DUH!)
@@ -44,14 +44,36 @@ def weapons_menu(profile, weapons):
 def mods_menu(profile, mods):
     return grouped_item_menu(profile,
                              mods,
+                             "weapon_type",
+                             "Select a weapon type",
                              "Select a mod",
-                             modify_rank,
-                             group_key="weapon_type",
-                             group_prompt="Select a weapon type"
+                              modify_rank,
                              )
 
 def equipment_menu(profile, equipment):
-    ...
+    for item in equipment:
+        name = item.get("display_name") or item["name"]
+        first_letter = name[0].upper()
+
+        if first_letter <= "F":
+            group = "A-F"
+        elif first_letter <= "L":
+            group = "G-L"
+        elif first_letter <= "R":
+            group = "M-R"
+        else:
+            group = "S-Z"
+
+        item["alphabetical_group"] = group
+
+    return grouped_item_menu(
+        profile,
+        equipment,
+        "alphabetical_group",
+        "Select Equipment Group",
+        "Select Equipment",
+        modify_rank
+    )
 
 def consumables_menu(profile, selected_items):
     ...
@@ -75,33 +97,31 @@ def format_item(item, inventory):
 def grouped_item_menu(
     profile,
     items,
+    group_key,
+    group_prompt,
     item_prompt,
-    action,
-    group_key=None,
-    group_prompt=None
+    action
+
 ):
     inventory = editor.get_inventory(profile)
 
-    if group_key is not None:
-        groups = sorted({
+    groups = sorted({
             item[group_key]
             for item in items
             if item.get(group_key)
         })
 
-        selected = select_from_menu(group_prompt, groups)
+    selected = select_from_menu(group_prompt, groups)
 
-        if selected is None:
-            return profile, False
+    if selected is None:
+        return profile, False
 
-        chosen_group = groups[selected]
+    chosen_group = groups[selected]
 
-        members = [
-            item for item in items
-            if item.get(group_key) == chosen_group
-        ]
-    else:
-        members = items
+    members = [
+        item for item in items
+        if item.get(group_key) == chosen_group
+    ]
 
     members = sorted(
         members,
@@ -149,14 +169,3 @@ def get_base_inventory_id(item):
     ids = item.get("inventory_ids", {})
     return ids.get("base", ids.get("0"))
 
-def alphabetical_group(item):
-    name = item.get("display_name") or item["name"]
-    first_letter = name[0].upper()
-
-    if first_letter <= "F":
-        return "A–F"
-    if first_letter <= "L":
-        return "G–L"
-    if first_letter <= "R":
-        return "M–R"
-    return "S–Z"
