@@ -13,7 +13,7 @@ TIERS = ["I", "II", "III", "IV"]
 #Prints out all the classes to select from
 #if a class has no unlockable unit it returns to the preceding menu.
 
-def units_menu(profile, units, status):
+def units_menu(profile, units, status, history):
     return grouped_item_menu(
         profile,
         units,
@@ -29,7 +29,7 @@ def units_menu(profile, units, status):
 #if a class has no unlockable gun it returns to the preceding menu.
 
 
-def weapons_menu(profile, weapons,status):
+def weapons_menu(profile, weapons,status, history):
      return grouped_item_menu(profile,
                               weapons,
                               "gui_type",
@@ -43,7 +43,7 @@ def weapons_menu(profile, weapons,status):
 #Prints out all the weapon types to select from
 #if a class has no unlockable mod left it returns to the preceding menu.
 
-def mods_menu(profile, mods, status):
+def mods_menu(profile, mods, status, history):
     return grouped_item_menu(profile,
                              mods,
                              "weapon_type",
@@ -53,7 +53,7 @@ def mods_menu(profile, mods, status):
                               status
                              )
 
-def equipment_menu(profile, equipment, status):
+def equipment_menu(profile, equipment, status, history):
     for item in equipment:
         name = item.get("display_name") or item["name"]
         first_letter = name[0].upper()
@@ -78,7 +78,7 @@ def equipment_menu(profile, equipment, status):
                              status
                             )
 
-def consumables_menu(profile, consumables,status):
+def consumables_menu(profile, consumables, status, history):
     return grouped_item_menu(profile,
                              consumables,
                              "gui_type",
@@ -125,7 +125,8 @@ def grouped_item_menu(
     group_prompt,
     item_prompt,
     action,
-    status
+    status,
+    history
 
 ):
     inventory = editor.get_inventory(profile)
@@ -161,9 +162,9 @@ def grouped_item_menu(
     if selected_member is None:
         return profile, status
 
-    return action(profile, members[selected_member], status)
+    return action(profile, members[selected_member], status, history)
 
-def modify_rank(profile, item, status):
+def modify_rank(profile, item, status, history):
     max_count = item.get("max_count")
     item_id = get_base_inventory_id(item)
     name = item.get("display_name") or item["name"]
@@ -180,11 +181,17 @@ def modify_rank(profile, item, status):
         return profile, status
 
     new_rank = selected + 1
+    current_rank = editor.get_inventory(profile)[item_id]
 
-    if editor.get_inventory(profile)[item_id] == new_rank:
+    if current_rank == new_rank:
         return profile, status
 
     profile = editor.set_inventory_item(profile,item_id,new_rank)
+
+    history.append(
+        f"{name}: Rank {current_rank} → Rank {new_rank}"
+    )
+
     return profile, ProfileStatus.MODIFIED_UNSAVED
 
 
@@ -192,7 +199,7 @@ def get_base_inventory_id(item):
     ids = item.get("inventory_ids", {})
     return ids.get("base", ids.get("0"))
 
-def modify_consumable(profile, item, status):
+def modify_consumable(profile, item, status, history):
     item_indices = item["inventory_ids"]
     inventory = editor.get_inventory(profile)
     if (len(item_indices) > 1):
@@ -216,7 +223,19 @@ def modify_consumable(profile, item, status):
     if (amount is None or amount == 0):
         return profile , status
 
+    old_amount = inventory[item_id]
+
     profile = editor.add_inventory_item_quantity(profile,item_id,amount)
+
+    new_amount = editor.get_inventory(profile)[item_id]
+
+
+    name = item.get("display_name") or item["name"]
+
+    if len(item_indices) > 1:
+        name += f" {TIERS[int(tier_keys[selected])]}"
+
+    history.append(f"{name}: {old_amount} → {new_amount} (+{amount})")
 
     return profile, ProfileStatus.MODIFIED_UNSAVED
 

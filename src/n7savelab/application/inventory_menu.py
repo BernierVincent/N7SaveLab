@@ -61,7 +61,7 @@ def load_catalog() -> dict:
         return json.load(file)["items"]
 
 
-def inventory_menu(profile,status):
+def inventory_menu(profile,history,status):
     catalog = load_catalog()
     categories = categorize_items(catalog)
 
@@ -82,16 +82,16 @@ def inventory_menu(profile,status):
         match category_key:
             case "units":
 
-                profile, status = units_menu(profile, selected_items,status)
+                profile, status = units_menu(profile, selected_items, status, history)
 
             case "weapons":
-                profile, status = weapons_menu(profile, selected_items,status)
+                profile, status = weapons_menu(profile, selected_items, status, history)
 
             case "mods":
-                profile, status = mods_menu(profile, selected_items,status)
+                profile, status = mods_menu(profile, selected_items, status, history)
 
             case "equipment":
-                profile, status = equipment_menu(profile, selected_items,status)
+                profile, status = equipment_menu(profile, selected_items, status, history)
 
             case "consumables":
-                profile, status = consumables_menu(profile, selected_items,status)
+                profile, status = consumables_menu(profile, selected_items, status, history)

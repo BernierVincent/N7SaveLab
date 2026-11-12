@@ -1,4 +1,3 @@
-import os
 
 import n7savelab.application.inventory_menu as inventory_menu
 from n7savelab.application import editor
@@ -8,8 +7,6 @@ from n7savelab.application.utils import select_from_menu, select_number
 from n7savelab.application.profile_status import ProfileStatus
 from .inventory_menu import inventory_menu
 
-def clear_screen():
-    os.system("cls" if os.name == "nt" else "clear")
 
 MAIN_OPTIONS = [
     "Load Profile",
@@ -54,14 +51,18 @@ def handle_set_credits(profile,history,status):
     if not require_profile(profile):
         return profile, status
 
-    print(f"Current balance : {profile.credits()}")
+    old_balance = profile.credits()
+
     new_balance = select_number("Enter new credit balance")
 
-    if new_balance is None:
-        return profile,status
+    if new_balance is None or new_balance == old_balance:
+        return profile, status
 
     profile = editor.set_credits(profile, new_balance)
-    history.append(f"Credits set to {new_balance:,}")
+
+    history.append(
+        f"Credits: {old_balance:,} → {new_balance:,}"
+    )    
     return profile,ProfileStatus.MODIFIED_UNSAVED
 
 def handle_add_credits(profile,history,status):
@@ -69,14 +70,21 @@ def handle_add_credits(profile,history,status):
     if not require_profile(profile):
         return profile, status
 
-    print(f"Current balance : {profile.credits()}")
+    old_balance = profile.credits()
+
     added_amount = select_number("Enter an amount to add")
 
-    if added_amount is None:
+    if added_amount is None or added_amount == 0:
         return profile,status
 
     profile = editor.add_credits(profile,added_amount)
-    history.append(f'Added {added_amount} credits to account balance')
+
+    new_balance = profile.credits()
+
+    history.append(
+        f"Credits: {old_balance:,} → {new_balance:,} (+{added_amount:,})"
+    )
+
     return profile, ProfileStatus.MODIFIED_UNSAVED
 
 def handle_inventory_management(profile,history,status):
@@ -124,14 +132,14 @@ def main_menu():
     filepath = None
     status = ProfileStatus.UNLOADED
     while True:
-        status_text = f"Profile Status: {status.value}"
 
         selected = select_from_menu(
             "N7 Save Lab",
             MAIN_OPTIONS,
             history=history,
-            status_text=status_text,
-            back_label="Exit"
+            status=status,
+            back_label="Exit",
+            profile = profile
         )
 
         if selected is None:
@@ -149,7 +157,7 @@ def main_menu():
                     profile,history,status
                 )
             case 2:
-                profile, status = handle_set_credits(
+                profile, status = handle_add_credits(
                     profile,history,status
                 )
             case 3:

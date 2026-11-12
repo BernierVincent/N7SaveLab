@@ -1,3 +1,6 @@
+import os
+
+
 def select_number(msg) -> int:
     while True:
         value = input(f"{msg} (type 'cancel' to cancel): ").strip()
@@ -28,8 +31,19 @@ def should_display_item(item: dict, inventory: bytearray) -> bool:
 
     return inventory[item_id] == 0
 
-def select_from_menu(title: str, options: list[str],history=None,status_text=None,back_label="Back") -> int | None:
+def select_from_menu(title: str, options: list[str],history=None,status=None,back_label="Back",profile = None) -> int | None:
     while True:
+        os.system("cls" if os.name == "nt" else "clear")
+
+        if profile is not None:
+            print(f"Profile Balance: {profile.credits():,}")
+
+        if status is not None:
+            print(f"Profile Status: {status.value}")
+
+        if history:
+            display_history(history)
+
         print(f"\n=== {title} ===")
 
         for index, option in enumerate(options, start=1):
@@ -49,5 +63,10 @@ def select_from_menu(title: str, options: list[str],history=None,status_text=Non
 
         print("Invalid selection.")
 
-def display_history():
-    ...
+def display_history(history):
+    if not history:
+        return
+
+    print("=== Recent Activity ===")
+    for entry in history[-5:]:
+        print(f"  {entry}")
