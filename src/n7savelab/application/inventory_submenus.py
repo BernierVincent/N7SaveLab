@@ -100,7 +100,6 @@ def format_item(item, inventory,tier_key=None):
             quantity = inventory[item_id]
             return f"{name} {TIERS[int(tier_key)]} [{quantity}]"
 
-        
 
         if current == 0 and type != "consumable":
              status = "Locked"
@@ -185,7 +184,6 @@ def modify_rank(profile, item):
 def get_base_inventory_id(item):
     ids = item.get("inventory_ids", {})
     return ids.get("base", ids.get("0"))
-
 
 def modify_consumable(profile, item):
     item_indices = item["inventory_ids"]
