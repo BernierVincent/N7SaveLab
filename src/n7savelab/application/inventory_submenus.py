@@ -148,3 +148,15 @@ def modify_quantity(profile,item):
 def get_base_inventory_id(item):
     ids = item.get("inventory_ids", {})
     return ids.get("base", ids.get("0"))
+
+def alphabetical_group(item):
+    name = item.get("display_name") or item["name"]
+    first_letter = name[0].upper()
+
+    if first_letter <= "F":
+        return "A–F"
+    if first_letter <= "L":
+        return "G–L"
+    if first_letter <= "R":
+        return "M–R"
+    return "S–Z"
